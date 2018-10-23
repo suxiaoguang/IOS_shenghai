@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DKProfileGradeViewController">
+            <connections>
+                <outlet property="addView" destination="1Wx-6f-963" id="4A3-z0-92I"/>
+                <outlet property="backTap" destination="8Us-IL-wp9" id="HPh-Vo-VV8"/>
+                <outlet property="evaluateAddView" destination="vaY-y8-JyJ" id="bou-jn-u8I"/>
+                <outlet property="gradeNumberLabel" destination="Ry8-l3-XPf" id="J3L-oN-3IZ"/>
+                <outlet property="headImageView" destination="MhO-po-qS1" id="sgd-6Y-7mh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WQQ-rl-Tfm">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="160"/>
+                    <subviews>
+                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_into_black" translatesAutoresizingMaskIntoConstraints="NO" id="pug-u6-e6e">
+                            <rect key="frame" x="15" y="35" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="20" id="Egr-Yk-1iK"/>
+                                <constraint firstAttribute="height" constant="20" id="f0b-cr-YgD"/>
+                            </constraints>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fMV-RX-AMl">
+                            <rect key="frame" x="-5" y="15" width="60" height="60"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="8Us-IL-wp9" appends="YES" id="ghZ-8x-aEo"/>
+                            </connections>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_user" translatesAutoresizingMaskIntoConstraints="NO" id="MhO-po-qS1">
+                            <rect key="frame" x="162.5" y="55" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="G9f-bY-7w7"/>
+                                <constraint firstAttribute="height" constant="50" id="bHF-3E-0B0"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                                    <real key="value" value="25"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用户评价 4.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ry8-l3-XPf">
+                            <rect key="frame" x="143" y="99" width="90" height="22"/>
+                            <color key="backgroundColor" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="deviceRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="22" id="4zN-kR-5XG"/>
+                                <constraint firstAttribute="width" constant="90" id="R1D-ik-nqH"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                                    <real key="value" value="11"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vaY-y8-JyJ">
+                            <rect key="frame" x="118.5" y="123" width="138" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="vfa-4L-RZq"/>
+                                <constraint firstAttribute="width" constant="138" id="zoj-RJ-HOd"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Ry8-l3-XPf" firstAttribute="bottom" secondItem="MhO-po-qS1" secondAttribute="bottom" multiplier="1.15" id="2Ub-5h-LbW"/>
+                        <constraint firstItem="fMV-RX-AMl" firstAttribute="width" secondItem="pug-u6-e6e" secondAttribute="width" multiplier="3" id="9KI-ri-l16"/>
+                        <constraint firstItem="fMV-RX-AMl" firstAttribute="height" secondItem="pug-u6-e6e" secondAttribute="height" multiplier="3" id="Oqd-9G-ycZ"/>
+                        <constraint firstItem="fMV-RX-AMl" firstAttribute="centerX" secondItem="pug-u6-e6e" secondAttribute="centerX" id="TA0-yY-akm"/>
+                        <constraint firstItem="MhO-po-qS1" firstAttribute="centerY" secondItem="WQQ-rl-Tfm" secondAttribute="centerY" id="UHN-HG-3Y0"/>
+                        <constraint firstItem="MhO-po-qS1" firstAttribute="centerX" secondItem="WQQ-rl-Tfm" secondAttribute="centerX" id="VH4-4N-fSC"/>
+                        <constraint firstItem="vaY-y8-JyJ" firstAttribute="centerX" secondItem="WQQ-rl-Tfm" secondAttribute="centerX" id="ZVG-tB-ZpT"/>
+                        <constraint firstItem="pug-u6-e6e" firstAttribute="leading" secondItem="WQQ-rl-Tfm" secondAttribute="leading" constant="15" id="ZX7-xv-DPN"/>
+                        <constraint firstItem="vaY-y8-JyJ" firstAttribute="top" secondItem="Ry8-l3-XPf" secondAttribute="bottom" constant="2" id="hJi-0W-8kV"/>
+                        <constraint firstItem="Ry8-l3-XPf" firstAttribute="centerX" secondItem="WQQ-rl-Tfm" secondAttribute="centerX" id="koc-hg-JdH"/>
+                        <constraint firstAttribute="height" constant="160" id="oEq-sK-hXA"/>
+                        <constraint firstItem="pug-u6-e6e" firstAttribute="top" secondItem="WQQ-rl-Tfm" secondAttribute="top" constant="35" id="ul9-AX-mFE"/>
+                        <constraint firstItem="fMV-RX-AMl" firstAttribute="centerY" secondItem="pug-u6-e6e" secondAttribute="centerY" id="yot-xM-gza"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Wx-6f-963">
+                    <rect key="frame" x="0.0" y="160" width="375" height="507"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="WQQ-rl-Tfm" secondAttribute="trailing" id="3uG-u7-L3Y"/>
+                <constraint firstItem="WQQ-rl-Tfm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="D7R-41-M88"/>
+                <constraint firstItem="WQQ-rl-Tfm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="NVT-uM-qbs"/>
+                <constraint firstAttribute="bottom" secondItem="1Wx-6f-963" secondAttribute="bottom" id="X8b-gp-blV"/>
+                <constraint firstItem="1Wx-6f-963" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hQ7-zk-6Qf"/>
+                <constraint firstAttribute="trailing" secondItem="1Wx-6f-963" secondAttribute="trailing" id="imq-kb-EEd"/>
+                <constraint firstItem="1Wx-6f-963" firstAttribute="top" secondItem="WQQ-rl-Tfm" secondAttribute="bottom" id="wUU-Ay-AE6"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
+        </view>
+        <tapGestureRecognizer id="8Us-IL-wp9"/>
+    </objects>
+    <resources>
+        <image name="ic_into_black" width="30" height="30"/>
+        <image name="ic_user" width="30" height="30"/>
+    </resources>
+</document>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DKProfileGradeCell" id="KGk-i7-Jjw" customClass="DKProfileGradeCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DSs-CD-WIV">
+                        <rect key="frame" x="15" y="10" width="290" height="36"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_into_grey" translatesAutoresizingMaskIntoConstraints="NO" id="PWi-vZ-8HD">
+                                <rect key="frame" x="260" y="11" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="1Xz-K5-HxZ"/>
+                                    <constraint firstAttribute="width" constant="15" id="QrE-t5-4lT"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="你收到了一条评价" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="472-FA-DDG">
+                                <rect key="frame" x="15" y="10" width="115" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="472-FA-DDG" firstAttribute="leading" secondItem="DSs-CD-WIV" secondAttribute="leading" constant="15" id="6z3-TK-NN1"/>
+                            <constraint firstItem="472-FA-DDG" firstAttribute="centerY" secondItem="DSs-CD-WIV" secondAttribute="centerY" id="9SP-4v-L9n"/>
+                            <constraint firstItem="PWi-vZ-8HD" firstAttribute="centerY" secondItem="DSs-CD-WIV" secondAttribute="centerY" id="YLV-hj-JQ2"/>
+                            <constraint firstAttribute="trailing" secondItem="PWi-vZ-8HD" secondAttribute="trailing" constant="15" id="zVS-7M-r7x"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="deviceRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="DSs-CD-WIV" secondAttribute="trailing" constant="15" id="PDv-DH-Dok"/>
+                    <constraint firstAttribute="bottom" secondItem="DSs-CD-WIV" secondAttribute="bottom" constant="3" id="URq-7d-zWu"/>
+                    <constraint firstItem="DSs-CD-WIV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="dyw-hn-bIr"/>
+                    <constraint firstItem="DSs-CD-WIV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="toS-xw-ctF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="backGroundView" destination="DSs-CD-WIV" id="WyW-kX-qwa"/>
+                <outlet property="detailLabel" destination="472-FA-DDG" id="jFN-Dw-dEG"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_into_grey" width="30" height="30"/>
+    </resources>
+</document>

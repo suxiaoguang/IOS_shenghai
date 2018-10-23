@@ -1,0 +1,2135 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0018D9C71A722404CC6F00A48E979883 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2C7D743C8DBAD9CA32549C0385DB9D /* main.m */; };
+		002617D2F3472307DEC0399A61FB5EBE /* NSURL+DKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E442AEAA02628F2E1DE0C25409F0E5F /* NSURL+DKExtension.m */; };
+		030396A4511319F5B65D70A6907C5736 /* DKQiNiuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C24CACD6FC30D690454C67088361A721 /* DKQiNiuManager.m */; };
+		03709021D7C307E567C07B64B1F849F9 /* DKExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D840542D6B9437E5AF735CEF247E10B8 /* DKExtensionConfig.m */; };
+		05F375E7B894D0319175D7E1DF707758 /* ALCalendarPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E9AAF7A17B0F44519F1EC40CF0FEB6 /* ALCalendarPicker.m */; };
+		07D20CADC42E977A3C3456A0B7F21780 /* DKOrderTurnStaffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E8DC64D8DBDBD856082E9BCF92FA6E /* DKOrderTurnStaffViewController.m */; };
+		0847ED5CAFF52B9DA9D4C8779CD30758 /* DKOrderNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548700F6485226AD00676BE5A4A69D4 /* DKOrderNumber.m */; };
+		08AC4565787A8304D697C9639BF9056E /* NSDate+DKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEFD7754755BFEB5432D09E36F13701 /* NSDate+DKExtension.m */; };
+		09875B93B9B18C2AEFA0E40A275BF300 /* ALCalendarHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF4B460DBF15C25197AD673799EEF9E /* ALCalendarHelper.m */; };
+		0AA4088BC7871BE9F1C752E8FFBC4B3F /* DKProfileHelpCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3E3A6D710150C7894CCAC7A29249E4B /* DKProfileHelpCell.xib */; };
+		0D394BC9404A6E593C8EBC915C7678BB /* DKProfileKnowledgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D9D2B40CEBA72F94160F774CD7999B /* DKProfileKnowledgeViewController.m */; };
+		0D47B35FD09199ADE09155F92720DA76 /* DKProfileGradeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD44044DD37A7FB60569CF77DC17B7F /* DKProfileGradeDetailViewController.m */; };
+		0DCBB442EA497FE0A5F2CB470BA47E3D /* DKNoticeBarButtonItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8F6ABE997EC08B04FA9CFDA38FE7F93 /* DKNoticeBarButtonItemView.xib */; };
+		0E1B8C42F471CA747DE92E33A07FFF25 /* DKOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9650448861444EE57967B44E192F64 /* DKOrder.m */; };
+		0EE736BDB7E85682C79AA476BBC0C936 /* DKProfileGradeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8326BBB881ED3AE3C4AA7555EDEC0A71 /* DKProfileGradeViewController.xib */; };
+		0FAF3B8E53876A71DB040C67E64000B6 /* DKCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5C22CD29DB9884FF461F79FC2AEBF5 /* DKCacheManager.m */; };
+		102C70A6EE1933290BFC7547C0599420 /* ALCalendarDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 585248EC1A7010E77338F40A6128DC07 /* ALCalendarDate.m */; };
+		10AEE039ECC8A1AEE07ADDCB7F46B685 /* MJPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A38393E06EA7870F89FD61D1AA351 /* MJPhotoView.m */; };
+		11C53B99824D0B4DD25A8E4DA26B0ADD /* DKOrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9084CA629977EA600C88A23FBED1FFD6 /* DKOrderDetailViewController.m */; };
+		12C5A18545DFB49FACE91319AA49A265 /* DKOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085553A4B51D86A7FA4446A3B650BFFE /* DKOrderCell.m */; };
+		14D30515F70639D75C28244D175E9E9A /* DKScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC86A7D242B581276B2B62910C6AE60C /* DKScheduleCell.m */; };
+		1593F33ADFECAC9A9626F5E2ED37DAD1 /* DKSearchContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F901EC897E1670FFE6EA0B09F365552 /* DKSearchContactViewController.xib */; };
+		15BE8D5F24C9945843C05D4348C0734B /* DKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADC84FA41CC3031F4E0BDC0A4C51B1B /* DKNavigationController.m */; };
+		1865B4C6952F22817629BC670815E9DE /* YZDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4707E11F9E15B81ABEEDE0C4828B2115 /* YZDisplayViewController.m */; };
+		190B7B0BF68C9EBE3D154D68C4E4589B /* DKProfileGradeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC3229F4A2C4E1377388B4EEBCDFFB /* DKProfileGradeDetailViewController.xib */; };
+		1BB8E8D3548067270D2AAE02BA6608BA /* DKOrderUserInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00292BA30BDF84BE54393ABBDA5C903C /* DKOrderUserInfoView.xib */; };
+		1C100AD878A8E4B994DB886BD830261E /* DKProfileHelpCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9412564C70A8807C61FC51460ADA1046 /* DKProfileHelpCell.m */; };
+		1CCD620C764DC44B39C7ED524A23F3B4 /* DKOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AC93FFC00DBD8EBD3286B20840D2E74 /* DKOrderCell.xib */; };
+		1E411D554C0014C8B0B42282208128F7 /* DKOrderUserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E2BE7149FF003CFE54243606CC98FB /* DKOrderUserInfoView.m */; };
+		1FFDFB49A76DDB98E18673DF09A3C278 /* DKDealWayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02161C339252A3CD21240E3E062A07BC /* DKDealWayViewController.m */; };
+		2157DB6C942D1B8605F13D91D362AB36 /* DKProfileFeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BBF0357892CA6F59045F2DA8DE85FB1 /* DKProfileFeedbackViewController.xib */; };
+		222910815AF937042F0A95D40C8EDA3B /* DKScheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F7BD7D9F15B89471EBB741B272EC334 /* DKScheduleCell.xib */; };
+		22EA30DAAFCF5232D6EA471D727FBE40 /* DKProfileWorkAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FB368AC19F73E5F99D4293F7E9FF03 /* DKProfileWorkAlertViewController.m */; };
+		25092F7948BAB20F0082133D88024F63 /* NSObject+DKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C09B7BE6575BEFB6F51338637E57A /* NSObject+DKExtension.m */; };
+		262115A2EAEAD1A4DBB723DB9A2FD63E /* DKUserLoginRegisterViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 661843984362563DFD95381D0848D713 /* DKUserLoginRegisterViewModel.m */; };
+		2674B3F89283B158B0EC7C5D9C8FFB73 /* DKProfileStarInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B17C2D1D1959E68C5937F5BFF74450 /* DKProfileStarInfo.m */; };
+		28232C0592337CE50942DFEF6E797390 /* DKProfileUserInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66688A624AA6500B299CE667F6992C6B /* DKProfileUserInfoViewModel.m */; };
+		286B39E7E3C84851B37C2E65FCE8F3D8 /* DKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31631DCC983D2637249EBA7C81E8204F /* DKTabBarController.m */; };
+		2B5EC4590593D501214887159E5A216A /* MJPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C758B95E054F2B66D996995C3E981 /* MJPhoto.m */; };
+		2BD3B97DD62B4F889CCB18AC9A162DB4 /* MJPhotoToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB3CB141F9731FEE56D186304B8D263 /* MJPhotoToolbar.m */; };
+		2E63D84B9CCC6580D1F438B6BE0BFA50 /* EMVoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7448829F8F2B314A570F30261E2C1AF4 /* EMVoiceConverter.mm */; };
+		2ED97305B3DF9D5765BF89D818AA7FF1 /* DKUserLoginRegisterParams.m in Sources */ = {isa = PBXBuildFile; fileRef = C75036CBED1C91FBFFC9635F6C3ADACB /* DKUserLoginRegisterParams.m */; };
+		3337FE0DAD8752CA77C414C031C026B1 /* DKCompleteOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F915EDBB0BD10EA71108019622FC76FD /* DKCompleteOrderViewController.m */; };
+		33F7264F30CA2ABEF53CB3EFCBE6F557 /* DKOrderDealBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 369B09AA94B84E8C0716D9435AE4BD08 /* DKOrderDealBarView.m */; };
+		34A1310DDF2227A44CA7D17DB198F1C9 /* DKOrderStateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12F2E59918D004246D7AA16D15D89F0F /* DKOrderStateView.xib */; };
+		356F1F6050F1DAA79267667BD7CB491A /* DKUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E9FAC70D12655F1D69AA10BC74FC82 /* DKUncaughtExceptionHandler.m */; };
+		3718A6ECAB29C24B2C2C1E640DFBB109 /* DKProfileShareKnowledgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55722566EDD7ACD7CDB3B33A0D1E6FBF /* DKProfileShareKnowledgeViewController.xib */; };
+		37E4869E128C07649406CA0E05B78610 /* libPods-ShengHai.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83693DE3B862D35DA29A4BA1FDAD1B09 /* libPods-ShengHai.a */; };
+		38592762CD95311CDC32BD902A2BAC50 /* DKPauseOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7F3301A8496291475F97687BCFEBCB /* DKPauseOrderViewController.xib */; };
+		38BBFF4F8785E6336FF4E602658957B0 /* DKTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F18B9C7CFEAC9CDAA561EAE0CE45DD /* DKTabBar.m */; };
+		3A84ABEEEF05197AD69C05CC8032B49F /* ALCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA239A0B7245FEBBE06AEC0AB32A7D2A /* ALCalendarCollectionView.m */; };
+		3B36235244759705FE2159A330646C07 /* DKDealWayWikiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA181B8F6F2E115976ED240E51C1E92 /* DKDealWayWikiViewController.m */; };
+		3EC55D2A42F9655CD0B126AF160B66F9 /* DKOrderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F4899EEF60E013E3FCFB0807DB173C /* DKOrderViewModel.m */; };
+		3ED87E105A3AEF8A8129602CB68C4BE2 /* DKProblemTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB0D2AF5FC6F4BFC8558BF60D97FBC /* DKProblemTypeCell.xib */; };
+		3FEEBB329CB5DFFFA9ADB19EAAE6B955 /* DKOrderRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 694ABB19F6EF2CCDC2AC8B6040B2FE95 /* DKOrderRecord.m */; };
+		419C5CAD7C46E4CA58343FAD8BD3B81D /* DKPauseOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B73C73DF1D34EEE14C77F47FB35F1C /* DKPauseOrderViewController.m */; };
+		42949236F7445E508EFB31826664B319 /* DKScheduleIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D8F6859905C11BFB6521567BE20043 /* DKScheduleIndicatorView.xib */; };
+		42EA41E3C66DC522AAE2BBD877C6D0A2 /* DKProfileNotificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40328401F16982A84283ECA74F44FD0B /* DKProfileNotificationCell.m */; };
+		434F1B5A3F262308CF6FC7DBDA26542B /* DKUserForgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 458C4E89A356FD5C97B34E665C8DCB2A /* DKUserForgetViewController.xib */; };
+		43C9BAE13E785FAFB1C8D881A99C7388 /* DKProfileNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272B6BDF16D352DEBFAEA1960212DE9A /* DKProfileNotificationViewController.m */; };
+		44411AAA18AC74128BC1CE2911612128 /* DKUserForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1B77E2F7034A1F587610F848166B56 /* DKUserForgetViewController.m */; };
+		45241DF1E22DDCCBC96E71F14CE10DE8 /* DKAccemptOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2710429FF59FF773596BA77C94D67F34 /* DKAccemptOrderViewController.xib */; };
+		45EEAF752D407F20F0F7597B2296B515 /* YZFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0701361513731F187B135B67873B8F34 /* YZFlowLayout.m */; };
+		4646D76717EA75A2C770098D8BE35861 /* DKProfileViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2954BA90B4F058E14C6558E8889EE534 /* DKProfileViewModel.m */; };
+		46D60A13F9BEC7B367389E6388477339 /* DKFaultDescriptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E4486860A61460C45891E16CABD072 /* DKFaultDescriptionView.m */; };
+		493D45EE4B293CF0F86C762BD0B3BBFE /* DKDealWayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C8503876C839148E3C144A9AE967CB /* DKDealWayCell.m */; };
+		49FA862CE78D6DB71A72D863CB01EA39 /* DKTableNoDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E3C54D0B3EC9691C76DCEF2E7E31943 /* DKTableNoDataView.xib */; };
+		4A2065E112297CB3071E315D78FA9E47 /* DKContactInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB0F9702ED14054DAB71F0F17CA51 /* DKContactInformation.m */; };
+		4AE9CC0C62AA3B8F5CE18BEB7ABFD053 /* DKProblemTypeSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED6FFDE814AC9EBAA30CF159E1E38E8 /* DKProblemTypeSecondViewController.m */; };
+		4B94707B6EFBF6EC22A8CFD786EC5F4C /* YZDisplayTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 894A73A04A7B356CADD70AB3CE1901FA /* YZDisplayTitleLabel.m */; };
+		4BD2153E5AA7DCCD52552EF026913A68 /* DKProfileHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6532AAF22B5BFBE9C98FA811DCA2C56D /* DKProfileHelpViewController.m */; };
+		4C0BCBB144EC5A6927AA3564BF5A3AA9 /* DKUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB1BDEE9B5783A8D9F67698EB229447 /* DKUserInfo.m */; };
+		4C6AB470918784631753F40AB36A9995 /* DKProfileWorkAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93A9A258DA9129FFCDB5D0FD2B768D12 /* DKProfileWorkAlertViewController.xib */; };
+		4E415FE37D2576401F0EE6FCD408CFD9 /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8C4D0691CF39A4DC947C6BC56F914182 /* wav.mm */; };
+		4F067633BD294ACEC2C6CFD8265569B6 /* DKProfileAddressBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7D500D8F7ADE0214A5D695A1E4EFAF /* DKProfileAddressBookCell.m */; };
+		4F0A07F44157042CAA80C3C388A0D999 /* DKUserSetPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C450ECB63A455DD1ED678B1B24E8BA4 /* DKUserSetPasswordViewController.xib */; };
+		507E0EE32668F5BC50406D7C02E635D1 /* DKOrderStaff.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F9C546CD796C1A0C1C8B366CABF936 /* DKOrderStaff.m */; };
+		50875A76F890A1EF0FB1A431B9A72CCF /* DKMaintenanceRecordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA864EDF375F5EB56276300987FB0DF2 /* DKMaintenanceRecordView.xib */; };
+		508C105B505F433F1E4A45A312C3D427 /* DKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBAF65489327583D962FC5CACE2A69B /* DKTableViewController.m */; };
+		50B43869CB00A0DC1E0D798CBBD70FD0 /* DKOrderWaitBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 221DC18D1B199E2648C250A1281B880A /* DKOrderWaitBarView.m */; };
+		51DCDFA304F83AAA51F938F011C524CB /* DKProfileHelpProblemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF669280A0BEEF2FDF65E828943A6A57 /* DKProfileHelpProblemsViewController.m */; };
+		530E169E668CD8262A063B8C7BF10422 /* DKUserChangePhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B5AE4602C7AF0BA6B1624DCB481A1C /* DKUserChangePhoneViewController.m */; };
+		535BD987C4BB2E972B9096FE5CBA1295 /* MJPhotoLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F905443B86562574F529A19B9C07ADED /* MJPhotoLoadingView.m */; };
+		53BEE9FE87A80D067AEE0AF14FE1BFFD /* ALCalendarHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 116B531464CB511642DF22BDBBD86D67 /* ALCalendarHeader.m */; };
+		57C079DD292AD52BEBE600AF7E99BB90 /* DKProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00213CA43871903839CE5C6E9E2AE65D /* DKProfileViewController.m */; };
+		5BEBB9FDD7F8A20A67E1E8F1923FF5D3 /* DKProfileUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 941DB334E7A0F0C240F017C8A60B98A8 /* DKProfileUserInfoViewController.m */; };
+		5C9C99A8E0091BED0D06D8EE002AAC51 /* DKProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A38616C5FAB2A9DCE5467AA6FF274C10 /* DKProfileCell.m */; };
+		609374BF0ABA374EDF90C2AA8373BE36 /* ALCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B3AE3F2458EE8F5048F3550F1A517A /* ALCalendarCell.m */; };
+		60A9A3CFB8E92A92A6B724148AD4F239 /* DKProfileAddressBookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF91D6ABF931EC1472BDF9A7F5FC0BD0 /* DKProfileAddressBookCell.xib */; };
+		615660EE48FADDDA43C4B5468053FE88 /* DKProfileHelpContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E114FC961E4CD681754B7983436E6C5 /* DKProfileHelpContactViewController.m */; };
+		62719EA7696283700B1C822ED6F5D710 /* DKProfileGradeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937582E56336ED9EC78C976A31FB5C26 /* DKProfileGradeCell.xib */; };
+		6375B0AB3D012FDEED8C7A344EA15D41 /* DKTableNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5256279CDB9BB67071EC9017773288B8 /* DKTableNoDataView.m */; };
+		6381632F7BEA12FDDC2F8D3735DE805D /* DKNoticeBarButtonItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C64A6D35B5DF26032CFD36BB5136FB98 /* DKNoticeBarButtonItemView.m */; };
+		662CE9672C7F9CD40104A0F1A5579C31 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 20A134A64F59C6B64DAA622A44B19035 /* amrFileCodec.mm */; };
+		6756F600CD30AC53248C7518DBFCB02B /* DKUserSetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F18D5DE48FECA0CBA22611701E83B9 /* DKUserSetPasswordViewController.m */; };
+		695564B843DF30971D677D832015AE15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E5784C5F4ED1D16A147646CE0D61E91 /* Assets.xcassets */; };
+		696198D78DC2FEC395F95200082D4C97 /* DKUserLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C13644F296C91DF45E72C4661BABE033 /* DKUserLoginViewController.m */; };
+		69D11C5AAAD836BBED7360D90DE307DE /* DKMonthCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA62DADD172FE51DE051C1F1493DAF08 /* DKMonthCalendar.m */; };
+		6A1B9353C19FBE3CB46480AA52C916E1 /* UIButton+DKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F933F3785C992D00F9599845D314CB1 /* UIButton+DKExtension.m */; };
+		6A656B76CADAAA71A3F4DA332A3839C4 /* UIView+DKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB658A6E7ED76452D5BB8892530A840 /* UIView+DKExtension.m */; };
+		6AED9C7B26E9474421F3F880AE7F1874 /* DKSettingAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCD5564161B0B86803305D8DD7EA69E2 /* DKSettingAboutViewController.xib */; };
+		6BDA2B99A595821D39979B7C00B2895C /* DKProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80A5F6C8AC3F16416C4ACED4902C2D03 /* DKProfileCell.xib */; };
+		6C8BB94953C8F78B1A9FCE32BE32DF8B /* MJPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F25B3ED665F8CD13C0C2D5604B4DF3 /* MJPhotoBrowser.m */; };
+		6D0E15853EBB55653F54BB246CB8A9B7 /* UIImage+DKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C04AC62ACDDA3BD3D0775312BB2D298 /* UIImage+DKExtension.m */; };
+		6DACD27BC5D8A929D32D542246AEA3F2 /* DKOrderWikiThird.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC07D2C0F2AA4C4F583C40FEA7D3E4B /* DKOrderWikiThird.m */; };
+		6F07E3A427FD2B9AD451C25756494A11 /* DKMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2460118DDE339B98AF621FD970195A15 /* DKMenuTableViewController.m */; };
+		6F3E21C919E8494D47266D1C947C13D4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 016234E6CAF3A735BC80972E98971403 /* UIView+Frame.m */; };
+		710D36EC549F53486BB50D75D6C1801A /* DKProfileFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0854421FE10CB674397E5795E3CDCDD7 /* DKProfileFeedbackViewController.m */; };
+		714EFFB86D168DC194A530E67BCFA14B /* DKDayCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA103D48360354A4A64591A4A4FA641 /* DKDayCalendar.m */; };
+		716DA20C630A49DD5369AE769EB5193E /* DKCompleteOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5526E3BDD825AA033A8FAF9DAC448944 /* DKCompleteOrderViewController.xib */; };
+		7265A48EA92527CADCF60810B4CA5869 /* NSArray+DKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC10CAD4DB3139D817817CC75C4BCEF /* NSArray+DKExtension.m */; };
+		743D07D8C817C9225262176FC18A72A7 /* DKScheduleViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C21C7DD5FF7E6A166787730A66FB44E5 /* DKScheduleViewModel.m */; };
+		759FE704E3F415FAFD04043BF02D1609 /* DKBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D04938C611DAF7F0D638967A41EE49D /* DKBadgeView.m */; };
+		7609FF60463052CC3F9B7B7A412CDF45 /* DKApplicationService.m in Sources */ = {isa = PBXBuildFile; fileRef = E55071A7CE4838ED6679E975D576CD63 /* DKApplicationService.m */; };
+		776840ECE397F47FD276B9323D9579DC /* DKProfileHelpViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C718366A7F4FC824757D861982C52671 /* DKProfileHelpViewModel.m */; };
+		793F7D75CEF74323FE783E834B92D6A4 /* DKSearchContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F6EE672F021640ABB99A742B127FB9 /* DKSearchContactViewController.m */; };
+		79895E28DB07123BDDC0D23EB9EBA1BA /* DKDealWayWikiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0122FF0846E0931D89236384B81BCC00 /* DKDealWayWikiViewController.xib */; };
+		79BE379259EA5B6F63EBD719D7C1AC39 /* DKOrderDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64BE9A2750B51FC2745E9CFEB204C189 /* DKOrderDetailViewController.xib */; };
+		7B9032E85C49454362BF763B827741F5 /* DKTableViewPageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2D692301E58B4E6E973D6D64E6D0D7 /* DKTableViewPageManager.m */; };
+		7BE36DCF2595D2B92DD5C6B66C3BAE8E /* DKApplicationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 164DDE22655E4A79B9AB52237E22B013 /* DKApplicationManager.m */; };
+		7CCFD042414B0974042F1C5B10C89D95 /* DKProfileAddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F52069F65740AB314887A7F68454E3 /* DKProfileAddressBookViewController.m */; };
+		7D2948BB50B0B04D6479E71431B0A125 /* DKProfileGradeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBD146668CD56DD4CC9FAB93009E7A4 /* DKProfileGradeListViewController.m */; };
+		80E047C01DFA13AEA18EED7E29E10F66 /* DKHTTPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D5DA169D141129A7CAD835D9962506 /* DKHTTPTool.m */; };
+		82F269E7314EB89519B365FDCB15E183 /* DKProfileHelpRulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A60542D468DE43EF270A00E9178CE26 /* DKProfileHelpRulesViewController.m */; };
+		85DCCA96FC033FCD26ECC4769214D738 /* DKDealEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82CFB5896508A0475CB0CA0B72DE665 /* DKDealEventViewController.m */; };
+		86B99B611697A8FDE9F0A817891BEACC /* UITableView+DKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ED078FB9DA1C87A62DBA18EF3856BD1A /* UITableView+DKExtension.m */; };
+		89A4FCB424DAE256F6A36A23ACEB36E5 /* DKNoticeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6019493EBA509F41F5EF95407F729D /* DKNoticeViewModel.m */; };
+		8AAFF602AEFEBF9776D8F33E0A3200EC /* DKOrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3F38ED510167F87999B030F1EACC9E /* DKOrderListViewController.m */; };
+		8B747FFA5A9C4971E992D87337624066 /* DKScheduleEmptyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A845D9BA9872382DFD148496B667D472 /* DKScheduleEmptyViewController.xib */; };
+		8BF1BA27239894425C0F54F1B9F4D3BA /* DKOrderRemindCountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92733D7440E1099205D1DE2365F1CE7A /* DKOrderRemindCountView.xib */; };
+		8E7B87A5497184B129638DF69913F0B8 /* DKMaintenanceRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4725B5BDCDAF7BFA8D9906E0AE926118 /* DKMaintenanceRecordView.m */; };
+		8F515AEA421E41D53648652DD829B32A /* DKStarInfoDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 7742DE92C8931A2981F1CE6DAF0B1A20 /* DKStarInfoDetail.m */; };
+		90035DE7B6FE8CB7BEAC79D6AD71B3F7 /* DKNotice.m in Sources */ = {isa = PBXBuildFile; fileRef = 466D4230228465040FDA656C76FCC183 /* DKNotice.m */; };
+		93D9022669C466A3E73F1586E700BA4D /* ALCalendarPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 79E0939961A42E4BB7AECA47C444A81A /* ALCalendarPicker.bundle */; };
+		94CAFDEE8DE4F7B2D9694F1884B336EC /* DKMaintenanceRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FFA1B3C6B54C3DB55C0E39B84AB58F /* DKMaintenanceRecordCell.m */; };
+		95221AAA9B783A0E6A49ED9703790291 /* DKOrderDealBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7864CB48798DB87AE72E6C562DE48997 /* DKOrderDealBarView.xib */; };
+		97278DC90C7BA4D1C717A71E5E4131D9 /* DKOrderContinueDealBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 273656BF12420209224795E1CF41E590 /* DKOrderContinueDealBarView.xib */; };
+		97D9956ABE5802EE2FF35927F37C7AA4 /* DKGradeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C50FE3BDC7FFC75CC56B160AB3FE0558 /* DKGradeViewModel.m */; };
+		9829A2D692008FD7732AD285D1213D04 /* DKScheduleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F845C4E18E8775482DB1B44D158B3B /* DKScheduleListViewController.m */; };
+		9AA9D67181BCB803B58C0F830D448670 /* DKRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 171063BEE044C7C26F14FF251B12F8F7 /* DKRefreshFooter.m */; };
+		9B008E7C1AB1EA747749AAD516579050 /* DKUserChangePhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C521B36B3E0C5B4A48DA27EA33EDD2CE /* DKUserChangePhoneViewController.xib */; };
+		9BEB5E8066E6DAD6D244EFD0CFF2A799 /* DKUserLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4A3994576473557A81945BE19AD93A2 /* DKUserLoginViewController.xib */; };
+		9C151C59CBA25EBDF467677515F15337 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC23ABC4C32C62A8FA36286ACFD0E79F /* libopencore-amrnb.a */; };
+		9D463F5E90F9C482954A7201B2D2AE8D /* DKScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E578C79D136D243C2680F4C25966FD56 /* DKScheduleViewController.m */; };
+		9DF4AA51BBA1AE441D1FB41C8A3A9C17 /* DKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F933BC7929DA0B0BAC8784EB0EC8F9B /* DKViewController.m */; };
+		9F4ACB9714B9178381282B9B3692D090 /* DKScheduleIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A357AFF730FF27601D27FE0AE777795 /* DKScheduleIndicatorView.m */; };
+		A12ACB6C166BC81998D9CF7B981C419E /* DKOrderStateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3816ED734DF21914617E4D064B567C /* DKOrderStateView.m */; };
+		A44D8DA40C437D7B6240027BEA6625B0 /* DKAccemptOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374AA2BF29E11BF974259939F558DD99 /* DKAccemptOrderViewController.m */; };
+		A659FEF59735D95A3C08FDAD8C047CEE /* UIBarButtonItem+DKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAB90210ED3337F997F079143C2CF09 /* UIBarButtonItem+DKExtension.m */; };
+		A69282C15EAD5463732ACD0905657360 /* DKSettingAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229508DF19F54A66B6AF94A28A179CE6 /* DKSettingAboutViewController.m */; };
+		A6D3B008F664EBA50B09DC5FAB7C3CC7 /* DKOrderList.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D984D994E9F0EFD5682CAB1B6C9CCE /* DKOrderList.m */; };
+		A7FE86EDCEF64EFA031F41A6929F5345 /* DKOrderTurnStaffCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 557334A27CADBD544806BAEDF515247A /* DKOrderTurnStaffCell.m */; };
+		A8754277AB29372E1DE6CF5B64EB29D7 /* DKHttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B3B06BD8EA8229A41DFA99BB23B80A /* DKHttpResponse.m */; };
+		A912A6DD3434422450350423F6CE484B /* DKCancleOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C89BF05EFCBE36AAA34B8122899179D /* DKCancleOrderViewController.xib */; };
+		AA42970579C12CDA86CE76660C0B30EF /* DKProblemTypeThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F538DF529935572054120C01F390FA /* DKProblemTypeThirdViewController.m */; };
+		AAAF33D9653802265CDC22068F58ABF3 /* UINavigationController+DKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B142BEA915E2D3A949DE12260B4E03 /* UINavigationController+DKExtension.m */; };
+		AB44B1E9D68FA123610F6618B72826A0 /* DKProfileGradeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E55ADC077554923F56E42C61CF65B74 /* DKProfileGradeCell.m */; };
+		AB8CB949E2098C3145AEB3989E9AC93D /* DKOrderEngineerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F8419E199CDB35C1C5491BB59FF7B6 /* DKOrderEngineerView.xib */; };
+		ABD5AE048914C3D915D26A908E6747ED /* DKOrderWikiSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = C50AC62E247AA10F0323FECCAFAEA34E /* DKOrderWikiSecond.m */; };
+		AC2BC376B0A719CFE2647C2A9E6A1C10 /* DKQrcodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A3197048EE7A8D4006C6699F06112C /* DKQrcodeViewController.m */; };
+		AC6BB5285968736E67FD643FB7D33000 /* DKTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 10620DE2B02CB7EC866E52BD49E35B23 /* DKTabBarButton.m */; };
+		ACFCA01C82B202B027D130FF0583B30E /* DKScheduleEmptyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08256371A3030CFD3BA1BE59F1E239CB /* DKScheduleEmptyViewController.m */; };
+		ADD18D906A2BCF51AFD9D79845AAEB84 /* DKConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6AB5432396FA8371C28A2EEECC8552 /* DKConst.m */; };
+		AE543F38EA4B17156AF51072D8011A89 /* DKProfileUserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AC9838BD25E611B4810331E47CD923B /* DKProfileUserInfoViewController.xib */; };
+		AE5AF98AA4EA07C79B50F8C5D59F05F9 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC046BEB8DC405AF9FB46AEA5EDDAD /* UIView+Frame.m */; };
+		AEAB7769204F296DE88DBCCFFB930661 /* DKProfileShareKnowledgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E641B29B51569D8E0B2C388A6E1528 /* DKProfileShareKnowledgeViewController.m */; };
+		AF984E0000823FA98A98372DC58C0C25 /* ALAssetsLibrary+DKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8543605CF416546725A4823E08FEE703 /* ALAssetsLibrary+DKExtension.m */; };
+		AFA2AF72657675DECDAED96D6E6E9E59 /* DKOrderBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1C1EC0A1EC58C51268508C95E5DA4A /* DKOrderBaseView.m */; };
+		B359C1C1CAC8850F43FDC5AA36F2AC60 /* SDWebImageManager+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C92F0989FFF5AAF0A3DD83695B31AD9 /* SDWebImageManager+MJ.m */; };
+		B545620AB7F0E2559D43856414EE40F6 /* ALCalendarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F1E5DB18BB0B790B42AA1D1DC8B66F /* ALCalendarConfig.m */; };
+		B586353F997DE2CBD3E92EC4D97D2952 /* DKProfileHelpContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8F38736A5CFAE2215ED8E7ABAA06AB5 /* DKProfileHelpContactViewController.xib */; };
+		B6006E8C7DBEF57D7199929CC8FF893B /* UIColor+DKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F751FCE9A67B6ACAD261E62107083D04 /* UIColor+DKExtension.m */; };
+		B65DE41ED8E2732E4F9D89E050B77FAE /* DKScheduleParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 6230D246D8FB344CDFF3AC0FA1A3769C /* DKScheduleParam.m */; };
+		B6B36AA00C717384A1AD88A81246F259 /* DKDealWayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E654FC267EF99A5A82440B109D02832B /* DKDealWayCell.xib */; };
+		BA1A6B41851D2538B5B50D1A2C1B774D /* DKQrcodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7054F351122B442BB6EC029A70BE6264 /* DKQrcodeViewController.xib */; };
+		BA7C13BEFF553FCFAC6BB3B284F49D35 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A51C74A7335C42A1B1867480A092543 /* libopencore-amrwb.a */; };
+		BABC5E86D5ECA12F1D35DADBA1DAB6E9 /* DKMaintenanceRecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B26DA92D75005C1D4A34B1EEE8D7B9F /* DKMaintenanceRecordCell.xib */; };
+		BB83345E4F64536EC6BCF68E48CD39E5 /* DKQiNiuConfigInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 003A6C17764917B79398F3D3766E6722 /* DKQiNiuConfigInfo.m */; };
+		BC2825BB3351EE166C4F652A51BE3C73 /* DKOrderTurnStaffCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB83F0E547597F2443DFA17E4CE839F8 /* DKOrderTurnStaffCell.xib */; };
+		BC3602AC44B2107E73578928347E42DD /* DKProblemTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C713F5A958F97F6FD5226C383F8DFF5 /* DKProblemTypeCell.m */; };
+		BD49E24801BBCBF8F0148C73E8284651 /* DKStaffContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF15EA18FAA907AA708EB7524D30D69 /* DKStaffContacts.m */; };
+		BF96C80A654EACC9C655927611F14AA8 /* UIAlertController+DKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A93F7CE7FE178C3B049E09F7DF07EBD2 /* UIAlertController+DKExtension.m */; };
+		BFF89F1C38EF9F2FD8ED1D3A632D7A6A /* DKProfileAddressBookDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0F8CD74F9B7DA68D522FB0BE03F14FE /* DKProfileAddressBookDetailCell.xib */; };
+		C3652BD949FD7BD5F8A12B9C0BE5C584 /* DKProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C89D3963365BA5DE4233070FCF66B8 /* DKProfileViewController.xib */; };
+		C3A4E1AF509A266BAE0510EB7EC32167 /* NSString+DKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B782767C13657AA50A3FE89D28751046 /* NSString+DKExtension.m */; };
+		C3D7A108BADC23A19B5D0B0E0687CDEF /* DKContactArea.m in Sources */ = {isa = PBXBuildFile; fileRef = E58889238C482A69546A1D399B671D15 /* DKContactArea.m */; };
+		C4D8DE673C4816A78967BCB7B55B9EC0 /* DKCancleOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D50461DA05986F13437ACA4A862B0DE /* DKCancleOrderViewController.m */; };
+		C5B54C8A550694D82F29D69ED64E54E9 /* DKProfileService.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D28BB7EE15057D8A95640E27658549 /* DKProfileService.m */; };
+		C866B3AB99BB9530D0467784D5EC49E5 /* DKProfileAdressBookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C16C3BCFDAA55C33011069743610A38 /* DKProfileAdressBookDetailViewController.m */; };
+		CB51B521F756040B51B65BC2F2E3DDA8 /* DKOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C7375331C786D57E5506C67191D6CC /* DKOrderViewController.m */; };
+		CBAC90C337076FB517546C44203DDCC8 /* DKRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7010B61B9598717BBDE15E17FA83DFA6 /* DKRefreshHeader.m */; };
+		CF19D16B6242C5C21CFF256D8CEEA628 /* DKProfileKnowledgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC18953734D874DD656EC64A1D92C390 /* DKProfileKnowledgeViewController.xib */; };
+		D44E2CDF89BD49608B31992A3227169A /* UIViewController+DKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 423E106EB077F5D5F9B7BFB942117E62 /* UIViewController+DKExtension.m */; };
+		D4C9C3BD652622E690813928219B9A32 /* DKOrderEngineerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1028DD30E4893FF1225802EC8249966D /* DKOrderEngineerView.m */; };
+		D501A06F57070FFCEA806FABC0D3E576 /* DKUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE59B00A3EDDF1B117EAA9F9ED555C2 /* DKUserService.m */; };
+		D5CF75B7184983650A43AE0D690E7B97 /* MJPhotoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D93D44002648546750C1EE1E356C3F /* MJPhotoProgressView.m */; };
+		D5D5236498DC9EF3B8214FCD169B2CE9 /* DKOrderRemindCountView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBE4B0CE74C504185A61A518CE0DEA4 /* DKOrderRemindCountView.m */; };
+		D66326A626264B47F78186276F04CF45 /* DKOrderWaitBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 728437649B6CF2BCB840A3A41042AEA5 /* DKOrderWaitBarView.xib */; };
+		DA910A036957A5D52557912428765BE7 /* DKProblemTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C093D252A1700D24F8E64617DCA44328 /* DKProblemTypeViewController.m */; };
+		DBBB92D21BA7C192974BB8842CA3B8C4 /* DKProfileEvaluateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49E02D662850DBFD6152EE7DDE98B9E6 /* DKProfileEvaluateView.xib */; };
+		DC1108AB5DF9655E6497578A2C21E78B /* DKViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E79CE404A33E05E144A77FDB981EED2C /* DKViewModel.m */; };
+		DC816E2AC44B31F01F58D4F3144B1EFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67883590AE41C9ABE922B6C988B878A1 /* AppDelegate.m */; };
+		DF0FC0FC16A3ABE956ECC93876DC4A65 /* DKProfileSuccessAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60DE22D67AC8223263349FB1A5082D55 /* DKProfileSuccessAlertViewController.xib */; };
+		E149EB9727E966A912EC8953B0E6AC2F /* DKOrderService.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2DF0F93A9244D75AE88FE01CB4ADD2 /* DKOrderService.m */; };
+		E14AA1BF338C532E679B9726CB3E6748 /* DKFaultDescriptionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65ACB0A0DB4C3C8DA110844149FEB00E /* DKFaultDescriptionView.xib */; };
+		E1DE7C700AF997219BF00912BCB6B40C /* DKProfileSuccessAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF77C34D313A22720E1D3A197DC0CCDE /* DKProfileSuccessAlertViewController.m */; };
+		E2C6CF0CD939D069C68E477059315A98 /* DKProfileGradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785A62D946CBD9A5CC748D4959442DA5 /* DKProfileGradeViewController.m */; };
+		E37781B881CF8E9518ADDEEC9411A3C0 /* DKProfileAddressBookDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D76F1B79ECD03259CD410404F79868 /* DKProfileAddressBookDetailCell.m */; };
+		EA676D2D0A2C15BFEA4F6BDA41E344EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31616D8E39DE9F53AF32C59243EF34A7 /* LaunchScreen.storyboard */; };
+		EC06A6C43DF7FE59B6692B4D1A4AC011 /* DKOrderWikiFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = EE95B2ECB85A40158E09966EF1E842FF /* DKOrderWikiFirst.m */; };
+		ED8389300747965DAD803BA08DE1F480 /* DKOrderDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD61D52BD758A14F2F21F2C78CAFAAC /* DKOrderDetailViewModel.m */; };
+		EE2D98BFA5DA23693BB5F74F8FF215AE /* DKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD07B661948A562E48311D9E9D01A4F /* DKWebViewController.m */; };
+		F15780C616D42B7F1A3685AB8E416935 /* NSDictionary+DKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F09AEE4BA68BBEBF33148FCF73A6C8 /* NSDictionary+DKExtension.m */; };
+		F3E43DFB789EBDF17EEC9E6878A9F8A6 /* DKProfileNotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB97F7380570A304024743920BB65202 /* DKProfileNotificationCell.xib */; };
+		F8BFB74BFF9170A4939591578886D002 /* DKView.m in Sources */ = {isa = PBXBuildFile; fileRef = F40ECADDDFC923582C2729F4387DA109 /* DKView.m */; };
+		F8E937EF1E675E49A93400709384F9CE /* DKOrderRemindCount.m in Sources */ = {isa = PBXBuildFile; fileRef = C562B311B1E46EE78F053A80591A7DCA /* DKOrderRemindCount.m */; };
+		FAB90F0BE892B41CD15179C297A13816 /* DKHelpProblemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D083B695B3B8B1D5C5A20CC55713684A /* DKHelpProblemViewController.m */; };
+		FC04EF8F34125499B46DD7B263588ED8 /* DKOrderContinueDealBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B796842B67AD62BA58A07B01E26EC254 /* DKOrderContinueDealBarView.m */; };
+		FE2E8A0C06AD27B730CAA04AC3B6A6A1 /* MJPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9E158B4FE449BB7032EBDF83CF129A9D /* MJPhotoBrowser.bundle */; };
+		FFDD462BB5CC8AE4FF9953E47C927804 /* DKProfileEvaluateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FC4241F72E6EA254EFA466C76A9688 /* DKProfileEvaluateView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00213CA43871903839CE5C6E9E2AE65D /* DKProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileViewController.m; sourceTree = "<group>"; };
+		00292BA30BDF84BE54393ABBDA5C903C /* DKOrderUserInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKOrderUserInfoView.xib; sourceTree = "<group>"; };
+		003A6C17764917B79398F3D3766E6722 /* DKQiNiuConfigInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKQiNiuConfigInfo.m; sourceTree = "<group>"; };
+		00A3197048EE7A8D4006C6699F06112C /* DKQrcodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKQrcodeViewController.m; sourceTree = "<group>"; };
+		00F18D5DE48FECA0CBA22611701E83B9 /* DKUserSetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKUserSetPasswordViewController.m; sourceTree = "<group>"; };
+		00F837507FA965F28FDC9EA25FD8B320 /* DKDealWayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDealWayCell.h; sourceTree = "<group>"; };
+		00FFA1B3C6B54C3DB55C0E39B84AB58F /* DKMaintenanceRecordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKMaintenanceRecordCell.m; sourceTree = "<group>"; };
+		0122FF0846E0931D89236384B81BCC00 /* DKDealWayWikiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKDealWayWikiViewController.xib; sourceTree = "<group>"; };
+		016234E6CAF3A735BC80972E98971403 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		01BB22C52C59958FE3D9194A176F5F3D /* MJPhotoToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhotoToolbar.h; sourceTree = "<group>"; };
+		020F95356923E0D74E5BDE99753CAF83 /* DKDealEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDealEventViewController.h; sourceTree = "<group>"; };
+		02161C339252A3CD21240E3E062A07BC /* DKDealWayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKDealWayViewController.m; sourceTree = "<group>"; };
+		041C758B95E054F2B66D996995C3E981 /* MJPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhoto.m; sourceTree = "<group>"; };
+		05E1D061C4A5A2A2FBE829890F53DAFC /* DKScheduleViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKScheduleViewModel.h; sourceTree = "<group>"; };
+		06BB1702C9851984F7906045657DD7B5 /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		0701361513731F187B135B67873B8F34 /* YZFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZFlowLayout.m; sourceTree = "<group>"; };
+		07027FCAB5E9E22CDE5B8271C66744C3 /* DKProfileHelpContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileHelpContactViewController.h; sourceTree = "<group>"; };
+		07C3D3E9A30A3F0B9D7774913B5FFEB6 /* DKOrderContinueDealBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderContinueDealBarView.h; sourceTree = "<group>"; };
+		07CE0249076C6636B09ADC3F23C4DD0D /* DKProfileWorkAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileWorkAlertViewController.h; sourceTree = "<group>"; };
+		08256371A3030CFD3BA1BE59F1E239CB /* DKScheduleEmptyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKScheduleEmptyViewController.m; sourceTree = "<group>"; };
+		0854421FE10CB674397E5795E3CDCDD7 /* DKProfileFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileFeedbackViewController.m; sourceTree = "<group>"; };
+		085553A4B51D86A7FA4446A3B650BFFE /* DKOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderCell.m; sourceTree = "<group>"; };
+		08C12761623F280A72B8903B2EBF0979 /* DKOrderWikiFirst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderWikiFirst.h; sourceTree = "<group>"; };
+		099F3F51F072E3121FDB9FE84176764E /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		09D76F1B79ECD03259CD410404F79868 /* DKProfileAddressBookDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileAddressBookDetailCell.m; sourceTree = "<group>"; };
+		0A5C09B7BE6575BEFB6F51338637E57A /* NSObject+DKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DKExtension.m"; sourceTree = "<group>"; };
+		0C450ECB63A455DD1ED678B1B24E8BA4 /* DKUserSetPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKUserSetPasswordViewController.xib; sourceTree = "<group>"; };
+		0E114FC961E4CD681754B7983436E6C5 /* DKProfileHelpContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileHelpContactViewController.m; sourceTree = "<group>"; };
+		0E442AEAA02628F2E1DE0C25409F0E5F /* NSURL+DKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+DKExtension.m"; sourceTree = "<group>"; };
+		0ECC3229F4A2C4E1377388B4EEBCDFFB /* DKProfileGradeDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKProfileGradeDetailViewController.xib; sourceTree = "<group>"; };
+		0F7BD7D9F15B89471EBB741B272EC334 /* DKScheduleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKScheduleCell.xib; sourceTree = "<group>"; };
+		0FBD146668CD56DD4CC9FAB93009E7A4 /* DKProfileGradeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileGradeListViewController.m; sourceTree = "<group>"; };
+		1028DD30E4893FF1225802EC8249966D /* DKOrderEngineerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderEngineerView.m; sourceTree = "<group>"; };
+		10620DE2B02CB7EC866E52BD49E35B23 /* DKTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKTabBarButton.m; sourceTree = "<group>"; };
+		116B531464CB511642DF22BDBBD86D67 /* ALCalendarHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCalendarHeader.m; sourceTree = "<group>"; };
+		12F2E59918D004246D7AA16D15D89F0F /* DKOrderStateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKOrderStateView.xib; sourceTree = "<group>"; };
+		130B2837F3B69F1BA7D34F3B8C339841 /* DKNoticeBarButtonItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKNoticeBarButtonItemView.h; sourceTree = "<group>"; };
+		137BC72810DCB069E62B91F11430C3BE /* DKProfileUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileUserInfoViewController.h; sourceTree = "<group>"; };
+		14459E43F4A10B039CEC901E1A179E02 /* NSDictionary+DKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DKExtension.h"; sourceTree = "<group>"; };
+		150CFCA5874167214B9F8C961F3F467D /* DKOrderWikiThird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderWikiThird.h; sourceTree = "<group>"; };
+		15B1B275B4D0AD125A5846BE76959276 /* DKOrderTurnStaffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderTurnStaffViewController.h; sourceTree = "<group>"; };
+		164DDE22655E4A79B9AB52237E22B013 /* DKApplicationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKApplicationManager.m; sourceTree = "<group>"; };
+		16DABF6AED4A19126978DEF1DBF548C8 /* DKProfileAdressBookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileAdressBookDetailViewController.h; sourceTree = "<group>"; };
+		171063BEE044C7C26F14FF251B12F8F7 /* DKRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKRefreshFooter.m; sourceTree = "<group>"; };
+		1720923F48483C7BA56ACDC6C6D743DB /* ALAssetsLibrary+DKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+DKExtension.h"; sourceTree = "<group>"; };
+		177EFB7805CEE3604CB012DAC129998D /* DKUserChangePhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKUserChangePhoneViewController.h; sourceTree = "<group>"; };
+		189D37F21819119782EFC5E3D6172B9B /* DKRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKRefreshFooter.h; sourceTree = "<group>"; };
+		18DBCCB662CEA516E9B8992824D727B0 /* SDWebImageManager+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDWebImageManager+MJ.h"; sourceTree = "<group>"; };
+		1941E53B5C0416DB1ED455429C8DE944 /* DKGradeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKGradeViewModel.h; sourceTree = "<group>"; };
+		19C5DC331D3FB6BDB58A3B8526E7431A /* DKProfileHelpProblemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileHelpProblemsViewController.h; sourceTree = "<group>"; };
+		19D27D1146FADDD11ADAC9CF883FB04D /* DKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKTabBarController.h; sourceTree = "<group>"; };
+		1A6019493EBA509F41F5EF95407F729D /* DKNoticeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKNoticeViewModel.m; sourceTree = "<group>"; };
+		1AA181B8F6F2E115976ED240E51C1E92 /* DKDealWayWikiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKDealWayWikiViewController.m; sourceTree = "<group>"; };
+		1AC10CAD4DB3139D817817CC75C4BCEF /* NSArray+DKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DKExtension.m"; sourceTree = "<group>"; };
+		1B2F721159B4ACE56DF7DC1F02000FC6 /* DKCompleteOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKCompleteOrderViewController.h; sourceTree = "<group>"; };
+		1BD0284E1EC9D7FD49DF9F16592D6BCB /* DKOrderWikiSecond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderWikiSecond.h; sourceTree = "<group>"; };
+		1C4A38393E06EA7870F89FD61D1AA351 /* MJPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhotoView.m; sourceTree = "<group>"; };
+		208197C757ABAD56EB0408C04C4511A3 /* DKRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKRefreshHeader.h; sourceTree = "<group>"; };
+		20A134A64F59C6B64DAA622A44B19035 /* amrFileCodec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = amrFileCodec.mm; sourceTree = "<group>"; };
+		21356DF66DE0CFB19CCEA83E537A3CC7 /* DKUserLoginRegisterParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKUserLoginRegisterParams.h; sourceTree = "<group>"; };
+		21AEBC60A1D71A838918BB69874CF71F /* DKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKTableViewController.h; sourceTree = "<group>"; };
+		221DC18D1B199E2648C250A1281B880A /* DKOrderWaitBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderWaitBarView.m; sourceTree = "<group>"; };
+		229508DF19F54A66B6AF94A28A179CE6 /* DKSettingAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSettingAboutViewController.m; sourceTree = "<group>"; };
+		23249BB3757E603010E2CBE84550FFC0 /* NSURL+DKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+DKExtension.h"; sourceTree = "<group>"; };
+		24355352FB85C0E329C1B8EC8E88E10E /* DKHttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKHttpResponse.h; sourceTree = "<group>"; };
+		2460118DDE339B98AF621FD970195A15 /* DKMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKMenuTableViewController.m; sourceTree = "<group>"; };
+		24F8419E199CDB35C1C5491BB59FF7B6 /* DKOrderEngineerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKOrderEngineerView.xib; sourceTree = "<group>"; };
+		269E5104BEB986E226A437476EDF1DCA /* DKProfileAddressBookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileAddressBookCell.h; sourceTree = "<group>"; };
+		2710429FF59FF773596BA77C94D67F34 /* DKAccemptOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKAccemptOrderViewController.xib; sourceTree = "<group>"; };
+		272B6BDF16D352DEBFAEA1960212DE9A /* DKProfileNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileNotificationViewController.m; sourceTree = "<group>"; };
+		273656BF12420209224795E1CF41E590 /* DKOrderContinueDealBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKOrderContinueDealBarView.xib; sourceTree = "<group>"; };
+		291464AD5ED7C82E5ED184077BC0DD93 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		2954BA90B4F058E14C6558E8889EE534 /* DKProfileViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileViewModel.m; sourceTree = "<group>"; };
+		2AB658A6E7ED76452D5BB8892530A840 /* UIView+DKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DKExtension.m"; sourceTree = "<group>"; };
+		2B0044DE93A81720F78D213881573036 /* YZDisplayTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayTitleLabel.h; sourceTree = "<group>"; };
+		2C04AC62ACDDA3BD3D0775312BB2D298 /* UIImage+DKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DKExtension.m"; sourceTree = "<group>"; };
+		2DB45DADB21F6AFCFA0D7BD1130359F8 /* DKTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKTabBarButton.h; sourceTree = "<group>"; };
+		2F7F3301A8496291475F97687BCFEBCB /* DKPauseOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKPauseOrderViewController.xib; sourceTree = "<group>"; };
+		2FBD80F5F358E3BBCC38E3DBEEDE2D68 /* DKSearchContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSearchContactViewController.h; sourceTree = "<group>"; };
+		31631DCC983D2637249EBA7C81E8204F /* DKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKTabBarController.m; sourceTree = "<group>"; };
+		34312955DB00D2B97672C0BC0D63264E /* YZDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewController.h; sourceTree = "<group>"; };
+		34B142BEA915E2D3A949DE12260B4E03 /* UINavigationController+DKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+DKExtension.m"; sourceTree = "<group>"; };
+		34B5AE4602C7AF0BA6B1624DCB481A1C /* DKUserChangePhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKUserChangePhoneViewController.m; sourceTree = "<group>"; };
+		34ED8EB29374BF135E2E0547877D2B74 /* ALCalendarCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCalendarCollectionView.h; sourceTree = "<group>"; };
+		352EC518950BFCBF3D9C540EE7AD9A9E /* DKProfileSuccessAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileSuccessAlertViewController.h; sourceTree = "<group>"; };
+		35D93D44002648546750C1EE1E356C3F /* MJPhotoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhotoProgressView.m; sourceTree = "<group>"; };
+		369B09AA94B84E8C0716D9435AE4BD08 /* DKOrderDealBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderDealBarView.m; sourceTree = "<group>"; };
+		36D06C80A37D66BECA3B3D7CE9442F7B /* DKProfileEvaluateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileEvaluateView.h; sourceTree = "<group>"; };
+		374AA2BF29E11BF974259939F558DD99 /* DKAccemptOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKAccemptOrderViewController.m; sourceTree = "<group>"; };
+		37FC4241F72E6EA254EFA466C76A9688 /* DKProfileEvaluateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileEvaluateView.m; sourceTree = "<group>"; };
+		3A3488B68E4999F4E8895DF99B16ACC7 /* DKScheduleParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKScheduleParam.h; sourceTree = "<group>"; };
+		3B26DA92D75005C1D4A34B1EEE8D7B9F /* DKMaintenanceRecordCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKMaintenanceRecordCell.xib; sourceTree = "<group>"; };
+		3C713F5A958F97F6FD5226C383F8DFF5 /* DKProblemTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProblemTypeCell.m; sourceTree = "<group>"; };
+		3D0509AA957BC77E13ACDEFA86E7C3AC /* NSObject+DKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DKExtension.h"; sourceTree = "<group>"; };
+		3D3FD8DBC3056D803CC4D5E7C3D6C654 /* DKMonthCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKMonthCalendar.h; sourceTree = "<group>"; };
+		3DEFD7754755BFEB5432D09E36F13701 /* NSDate+DKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DKExtension.m"; sourceTree = "<group>"; };
+		3E6AB5432396FA8371C28A2EEECC8552 /* DKConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKConst.m; sourceTree = "<group>"; };
+		3E9650448861444EE57967B44E192F64 /* DKOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrder.m; sourceTree = "<group>"; };
+		40328401F16982A84283ECA74F44FD0B /* DKProfileNotificationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileNotificationCell.m; sourceTree = "<group>"; };
+		40F6EE672F021640ABB99A742B127FB9 /* DKSearchContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSearchContactViewController.m; sourceTree = "<group>"; };
+		4137DD3C410FD826045D660F9369C820 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		414721C223C87741FA0A4EB9BA3941DA /* DKUncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKUncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		4159385C69FC635ECD80705C09E1F1A3 /* MJPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhotoView.h; sourceTree = "<group>"; };
+		41F52069F65740AB314887A7F68454E3 /* DKProfileAddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileAddressBookViewController.m; sourceTree = "<group>"; };
+		4223A0BED11BA1A121B67B52167E9008 /* DKProfileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileCell.h; sourceTree = "<group>"; };
+		423E106EB077F5D5F9B7BFB942117E62 /* UIViewController+DKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DKExtension.m"; sourceTree = "<group>"; };
+		458C4E89A356FD5C97B34E665C8DCB2A /* DKUserForgetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKUserForgetViewController.xib; sourceTree = "<group>"; };
+		4621436DA6C25E8995B913EB5D45A670 /* NSArray+DKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+DKExtension.h"; sourceTree = "<group>"; };
+		466D4230228465040FDA656C76FCC183 /* DKNotice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKNotice.m; sourceTree = "<group>"; };
+		4707E11F9E15B81ABEEDE0C4828B2115 /* YZDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZDisplayViewController.m; sourceTree = "<group>"; };
+		4725B5BDCDAF7BFA8D9906E0AE926118 /* DKMaintenanceRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKMaintenanceRecordView.m; sourceTree = "<group>"; };
+		48B17C2D1D1959E68C5937F5BFF74450 /* DKProfileStarInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileStarInfo.m; sourceTree = "<group>"; };
+		49DC87114E2195A85FFD7B57BBB223FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49E02D662850DBFD6152EE7DDE98B9E6 /* DKProfileEvaluateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKProfileEvaluateView.xib; sourceTree = "<group>"; };
+		49E9FAC70D12655F1D69AA10BC74FC82 /* DKUncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKUncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		4A1C1EC0A1EC58C51268508C95E5DA4A /* DKOrderBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderBaseView.m; sourceTree = "<group>"; };
+		4A60542D468DE43EF270A00E9178CE26 /* DKProfileHelpRulesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileHelpRulesViewController.m; sourceTree = "<group>"; };
+		4B00F33F191E1E5641CD6FD2F08F8047 /* DKCancleOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKCancleOrderViewController.h; sourceTree = "<group>"; };
+		4B51314AF93FD188883C9E65C8F4E844 /* DKMaintenanceRecordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKMaintenanceRecordCell.h; sourceTree = "<group>"; };
+		4C16C3BCFDAA55C33011069743610A38 /* DKProfileAdressBookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileAdressBookDetailViewController.m; sourceTree = "<group>"; };
+		4C92F0989FFF5AAF0A3DD83695B31AD9 /* SDWebImageManager+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDWebImageManager+MJ.m"; sourceTree = "<group>"; };
+		4D0459E15DA2E4A02A217BD8B3F5EC26 /* DKSettingAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSettingAboutViewController.h; sourceTree = "<group>"; };
+		4D6B48C44BF6E6763B3BEA0D4D019848 /* DKProfileAddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileAddressBookViewController.h; sourceTree = "<group>"; };
+		4EDBC74A3C166AF0ED3728F27D05240C /* DKOrderBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderBaseView.h; sourceTree = "<group>"; };
+		4F7960204BEF734AD9820C16A9742755 /* DKUserLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKUserLoginViewController.h; sourceTree = "<group>"; };
+		51715CEE5B4C2067B6F00207642F54F9 /* DKExtensionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKExtensionConfig.h; sourceTree = "<group>"; };
+		5256279CDB9BB67071EC9017773288B8 /* DKTableNoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKTableNoDataView.m; sourceTree = "<group>"; };
+		525D0EF6B2E1C6BB1CF3B5CB554EC2C9 /* UIColor+DKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DKExtension.h"; sourceTree = "<group>"; };
+		5265CE9517EBBDC8CD4C8052AD31ADFB /* DKQiNiuConfigInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKQiNiuConfigInfo.h; sourceTree = "<group>"; };
+		533CDF19469A85C10CF18AED06FE5510 /* DKProblemTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProblemTypeCell.h; sourceTree = "<group>"; };
+		535B01FD0F5285B261E6D8883C527039 /* UIAlertController+DKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+DKExtension.h"; sourceTree = "<group>"; };
+		54B3B06BD8EA8229A41DFA99BB23B80A /* DKHttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKHttpResponse.m; sourceTree = "<group>"; };
+		5526E3BDD825AA033A8FAF9DAC448944 /* DKCompleteOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKCompleteOrderViewController.xib; sourceTree = "<group>"; };
+		55722566EDD7ACD7CDB3B33A0D1E6FBF /* DKProfileShareKnowledgeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKProfileShareKnowledgeViewController.xib; sourceTree = "<group>"; };
+		557334A27CADBD544806BAEDF515247A /* DKOrderTurnStaffCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderTurnStaffCell.m; sourceTree = "<group>"; };
+		55F538DF529935572054120C01F390FA /* DKProblemTypeThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProblemTypeThirdViewController.m; sourceTree = "<group>"; };
+		561C1DDDED97D40D0010B77698C6DE22 /* DKDealWayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDealWayViewController.h; sourceTree = "<group>"; };
+		57008FC86B906EA4B6669CE7C947E1AC /* DKProfileHelpViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileHelpViewModel.h; sourceTree = "<group>"; };
+		585248EC1A7010E77338F40A6128DC07 /* ALCalendarDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCalendarDate.m; sourceTree = "<group>"; };
+		5A51C74A7335C42A1B1867480A092543 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		5B83170B8A1066E995C5180EE0827742 /* DKContactInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKContactInformation.h; sourceTree = "<group>"; };
+		5B9D1A1AD18098512176300151785025 /* wav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
+		5C8FFE88458BFF7A0B0CC167AB079373 /* DKOrderStateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderStateView.h; sourceTree = "<group>"; };
+		5CCE10331CE38E420C612EC5EBD43F8C /* DKOrderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderListViewController.h; sourceTree = "<group>"; };
+		5E970F3E0FB25FC9042E1260C8BCFA11 /* UIBarButtonItem+DKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+DKExtension.h"; sourceTree = "<group>"; };
+		5F2C7D743C8DBAD9CA32549C0385DB9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F5C22CD29DB9884FF461F79FC2AEBF5 /* DKCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKCacheManager.m; sourceTree = "<group>"; };
+		5F933BC7929DA0B0BAC8784EB0EC8F9B /* DKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKViewController.m; sourceTree = "<group>"; };
+		60A2F6BE62DB956BF7F326CD67A99910 /* DKProfileViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileViewModel.h; sourceTree = "<group>"; };
+		60DE22D67AC8223263349FB1A5082D55 /* DKProfileSuccessAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKProfileSuccessAlertViewController.xib; sourceTree = "<group>"; };
+		6230D246D8FB344CDFF3AC0FA1A3769C /* DKScheduleParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKScheduleParam.m; sourceTree = "<group>"; };
+		63C89D3963365BA5DE4233070FCF66B8 /* DKProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKProfileViewController.xib; sourceTree = "<group>"; };
+		63F4899EEF60E013E3FCFB0807DB173C /* DKOrderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderViewModel.m; sourceTree = "<group>"; };
+		642B1DAA4238BE1938F79D64D4CF3C46 /* NSDate+DKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DKExtension.h"; sourceTree = "<group>"; };
+		644ED50A8728CB59FC1A7314077EDA4B /* ALCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCalendarCell.h; sourceTree = "<group>"; };
+		6460259FD32444BA0FB4723BC5B8F0BE /* DKOrderWaitBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderWaitBarView.h; sourceTree = "<group>"; };
+		646755CB03A018C007BBC51B95BEC0E9 /* ALCalendarHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCalendarHeader.h; sourceTree = "<group>"; };
+		64BE9A2750B51FC2745E9CFEB204C189 /* DKOrderDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKOrderDetailViewController.xib; sourceTree = "<group>"; };
+		6532AAF22B5BFBE9C98FA811DCA2C56D /* DKProfileHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileHelpViewController.m; sourceTree = "<group>"; };
+		65ABF798571EC9D7B3C582C823AD5337 /* DKProfileHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileHelpViewController.h; sourceTree = "<group>"; };
+		65ACB0A0DB4C3C8DA110844149FEB00E /* DKFaultDescriptionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKFaultDescriptionView.xib; sourceTree = "<group>"; };
+		661843984362563DFD95381D0848D713 /* DKUserLoginRegisterViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKUserLoginRegisterViewModel.m; sourceTree = "<group>"; };
+		66688A624AA6500B299CE667F6992C6B /* DKProfileUserInfoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileUserInfoViewModel.m; sourceTree = "<group>"; };
+		666A27E3DD6726EBD2DC474659502DAC /* DKProfileShareKnowledgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileShareKnowledgeViewController.h; sourceTree = "<group>"; };
+		66D6FBEE8A87CAA2ECF3C6CF268FC6D6 /* YZFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZFlowLayout.h; sourceTree = "<group>"; };
+		66E4486860A61460C45891E16CABD072 /* DKFaultDescriptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKFaultDescriptionView.m; sourceTree = "<group>"; };
+		671D5E4DA454F6ECFCEADD4191D0A255 /* DKUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKUserInfo.h; sourceTree = "<group>"; };
+		67883590AE41C9ABE922B6C988B878A1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68D984D994E9F0EFD5682CAB1B6C9CCE /* DKOrderList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderList.m; sourceTree = "<group>"; };
+		694ABB19F6EF2CCDC2AC8B6040B2FE95 /* DKOrderRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderRecord.m; sourceTree = "<group>"; };
+		6A7D500D8F7ADE0214A5D695A1E4EFAF /* DKProfileAddressBookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileAddressBookCell.m; sourceTree = "<group>"; };
+		6AAB0D2AF5FC6F4BFC8558BF60D97FBC /* DKProblemTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKProblemTypeCell.xib; sourceTree = "<group>"; };
+		6AC93FFC00DBD8EBD3286B20840D2E74 /* DKOrderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKOrderCell.xib; sourceTree = "<group>"; };
+		6CBE4B0CE74C504185A61A518CE0DEA4 /* DKOrderRemindCountView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderRemindCountView.m; sourceTree = "<group>"; };
+		6CF4B460DBF15C25197AD673799EEF9E /* ALCalendarHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCalendarHelper.m; sourceTree = "<group>"; };
+		6E5784C5F4ED1D16A147646CE0D61E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EDC046BEB8DC405AF9FB46AEA5EDDAD /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		6FE59B00A3EDDF1B117EAA9F9ED555C2 /* DKUserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKUserService.m; sourceTree = "<group>"; };
+		7010B61B9598717BBDE15E17FA83DFA6 /* DKRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKRefreshHeader.m; sourceTree = "<group>"; };
+		7054F351122B442BB6EC029A70BE6264 /* DKQrcodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKQrcodeViewController.xib; sourceTree = "<group>"; };
+		70AFC1D4671583647B143B568F304A73 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		70FA2CC95861507D31B4EECBF3C9447E /* DKOrderNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderNumber.h; sourceTree = "<group>"; };
+		71BE1C5E509ECC97A5AF7B36E7200A05 /* MJPhotoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhotoProgressView.h; sourceTree = "<group>"; };
+		728437649B6CF2BCB840A3A41042AEA5 /* DKOrderWaitBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKOrderWaitBarView.xib; sourceTree = "<group>"; };
+		7448829F8F2B314A570F30261E2C1AF4 /* EMVoiceConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EMVoiceConverter.mm; sourceTree = "<group>"; };
+		7548700F6485226AD00676BE5A4A69D4 /* DKOrderNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderNumber.m; sourceTree = "<group>"; };
+		75D5DA169D141129A7CAD835D9962506 /* DKHTTPTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKHTTPTool.m; sourceTree = "<group>"; };
+		76275C06EBFD3DCFECC46755DAB71E1E /* DKProfileAddressBookDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileAddressBookDetailCell.h; sourceTree = "<group>"; };
+		765E489FBFAFE0598DE4F20C2BFB889F /* DKProfileGradeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileGradeCell.h; sourceTree = "<group>"; };
+		7742DE92C8931A2981F1CE6DAF0B1A20 /* DKStarInfoDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKStarInfoDetail.m; sourceTree = "<group>"; };
+		779530431166E7BBA148D5750CC2CC77 /* DKOrderEngineerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderEngineerView.h; sourceTree = "<group>"; };
+		785A62D946CBD9A5CC748D4959442DA5 /* DKProfileGradeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileGradeViewController.m; sourceTree = "<group>"; };
+		7864CB48798DB87AE72E6C562DE48997 /* DKOrderDealBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKOrderDealBarView.xib; sourceTree = "<group>"; };
+		79B5EB2308CA572CA78F7891544A1889 /* DKPauseOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKPauseOrderViewController.h; sourceTree = "<group>"; };
+		79E0939961A42E4BB7AECA47C444A81A /* ALCalendarPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ALCalendarPicker.bundle; sourceTree = "<group>"; };
+		7A04175E597077C103307CE352679975 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		7B2D06C904833E24B1B85059F06FB748 /* DKOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderViewController.h; sourceTree = "<group>"; };
+		7B54F3F396BABA726772C9FE6BA0BAA0 /* UIViewController+DKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DKExtension.h"; sourceTree = "<group>"; };
+		7BBF0357892CA6F59045F2DA8DE85FB1 /* DKProfileFeedbackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKProfileFeedbackViewController.xib; sourceTree = "<group>"; };
+		7BC07D2C0F2AA4C4F583C40FEA7D3E4B /* DKOrderWikiThird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderWikiThird.m; sourceTree = "<group>"; };
+		7BD61D52BD758A14F2F21F2C78CAFAAC /* DKOrderDetailViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderDetailViewModel.m; sourceTree = "<group>"; };
+		7C81E3BCA7F9078C61D999814E68DB8B /* DKHTTPTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKHTTPTool.h; sourceTree = "<group>"; };
+		7D691D34D8B8F9A2FDC5ED8A3AB80982 /* DKOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrder.h; sourceTree = "<group>"; };
+		7D96BDCDBF1BD1DA0DC014CDADCF3379 /* DKScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKScheduleViewController.h; sourceTree = "<group>"; };
+		7E3C54D0B3EC9691C76DCEF2E7E31943 /* DKTableNoDataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKTableNoDataView.xib; sourceTree = "<group>"; };
+		7EBD66BF37F4154DE6DB28438F875FE7 /* DKMaintenanceRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKMaintenanceRecordView.h; sourceTree = "<group>"; };
+		7EBE71DD2DD21B57ECAC5CD9C0B3DADF /* DKProfileFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileFeedbackViewController.h; sourceTree = "<group>"; };
+		7F3816ED734DF21914617E4D064B567C /* DKOrderStateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderStateView.m; sourceTree = "<group>"; };
+		7F933F3785C992D00F9599845D314CB1 /* UIButton+DKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DKExtension.m"; sourceTree = "<group>"; };
+		7FDC9736E077496A053F98CDBE82DB8B /* DKProfileKnowledgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileKnowledgeViewController.h; sourceTree = "<group>"; };
+		80A5F6C8AC3F16416C4ACED4902C2D03 /* DKProfileCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKProfileCell.xib; sourceTree = "<group>"; };
+		80E2BE7149FF003CFE54243606CC98FB /* DKOrderUserInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderUserInfoView.m; sourceTree = "<group>"; };
+		8289614533A98334321739758FF65322 /* DKProfileNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileNotificationViewController.h; sourceTree = "<group>"; };
+		8326BBB881ED3AE3C4AA7555EDEC0A71 /* DKProfileGradeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKProfileGradeViewController.xib; sourceTree = "<group>"; };
+		83693DE3B862D35DA29A4BA1FDAD1B09 /* libPods-ShengHai.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShengHai.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8543605CF416546725A4823E08FEE703 /* ALAssetsLibrary+DKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+DKExtension.m"; sourceTree = "<group>"; };
+		85E44E0EC073F58DABCC7D2C6A9DBEAA /* DKHelpProblemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKHelpProblemViewController.h; sourceTree = "<group>"; };
+		8648CC290BFD4D840E6A77BD7F9AE9FA /* DKApplicationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKApplicationService.h; sourceTree = "<group>"; };
+		888F5E081AAA2D655516546F52589E3F /* DKNoticeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKNoticeViewModel.h; sourceTree = "<group>"; };
+		894A73A04A7B356CADD70AB3CE1901FA /* YZDisplayTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZDisplayTitleLabel.m; sourceTree = "<group>"; };
+		8A357AFF730FF27601D27FE0AE777795 /* DKScheduleIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKScheduleIndicatorView.m; sourceTree = "<group>"; };
+		8A546E18A30BCAEF7EE276BB270EFAEA /* DKProfileGradeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileGradeListViewController.h; sourceTree = "<group>"; };
+		8ACE0A3A65EB9A8A9E24CB7611CA5C4F /* NSString+DKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DKExtension.h"; sourceTree = "<group>"; };
+		8AD07B661948A562E48311D9E9D01A4F /* DKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKWebViewController.m; sourceTree = "<group>"; };
+		8C4D0691CF39A4DC947C6BC56F914182 /* wav.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wav.mm; sourceTree = "<group>"; };
+		8C89BF05EFCBE36AAA34B8122899179D /* DKCancleOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKCancleOrderViewController.xib; sourceTree = "<group>"; };
+		8CA370D2E3EDC84E55F1C998C9379CED /* Pods-ShengHai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShengHai.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShengHai/Pods-ShengHai.release.xcconfig"; sourceTree = "<group>"; };
+		8D04938C611DAF7F0D638967A41EE49D /* DKBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKBadgeView.m; sourceTree = "<group>"; };
+		8D04983F0B689BD8BBF33419800F96C8 /* DKProblemTypeSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProblemTypeSecondViewController.h; sourceTree = "<group>"; };
+		8D50461DA05986F13437ACA4A862B0DE /* DKCancleOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKCancleOrderViewController.m; sourceTree = "<group>"; };
+		8F4ABAC6B0951B839954BD8D14F6573F /* DKOrderDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderDetailViewController.h; sourceTree = "<group>"; };
+		8F80E7D766BC5802CB3B8E07EC07D91D /* MJPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhoto.h; sourceTree = "<group>"; };
+		8F901EC897E1670FFE6EA0B09F365552 /* DKSearchContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKSearchContactViewController.xib; sourceTree = "<group>"; };
+		8FBAF65489327583D962FC5CACE2A69B /* DKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKTableViewController.m; sourceTree = "<group>"; };
+		9084CA629977EA600C88A23FBED1FFD6 /* DKOrderDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderDetailViewController.m; sourceTree = "<group>"; };
+		920956D40D78BB5D583CC4456F4FF090 /* DKOrderService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderService.h; sourceTree = "<group>"; };
+		92733D7440E1099205D1DE2365F1CE7A /* DKOrderRemindCountView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKOrderRemindCountView.xib; sourceTree = "<group>"; };
+		92C0E59CDE73538295DC1BC62C4F2852 /* DKScheduleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKScheduleListViewController.h; sourceTree = "<group>"; };
+		9356B05D654A14DF2DCD9C0D1528380C /* DKOrderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderViewModel.h; sourceTree = "<group>"; };
+		937582E56336ED9EC78C976A31FB5C26 /* DKProfileGradeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKProfileGradeCell.xib; sourceTree = "<group>"; };
+		93A9A258DA9129FFCDB5D0FD2B768D12 /* DKProfileWorkAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKProfileWorkAlertViewController.xib; sourceTree = "<group>"; };
+		93B5FC169A6D99217D73E4A8A2D7FC39 /* DKUserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKUserService.h; sourceTree = "<group>"; };
+		9412564C70A8807C61FC51460ADA1046 /* DKProfileHelpCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileHelpCell.m; sourceTree = "<group>"; };
+		941DB334E7A0F0C240F017C8A60B98A8 /* DKProfileUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileUserInfoViewController.m; sourceTree = "<group>"; };
+		94EC901002D7BF301B65A03CBDA76560 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		957DEFB2202A76317251C58F3470A4F9 /* UIButton+DKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DKExtension.h"; sourceTree = "<group>"; };
+		95F09AEE4BA68BBEBF33148FCF73A6C8 /* NSDictionary+DKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DKExtension.m"; sourceTree = "<group>"; };
+		965BF1D0BFC69A70EA5E45C6CB58BCCF /* EMVoiceConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMVoiceConverter.h; sourceTree = "<group>"; };
+		96E9AAF7A17B0F44519F1EC40CF0FEB6 /* ALCalendarPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCalendarPicker.m; sourceTree = "<group>"; };
+		980477FBA3C01FEEBF122218E8506A69 /* DKProfileGradeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileGradeViewController.h; sourceTree = "<group>"; };
+		98B129B61157A4A334CFA2379AEB3073 /* DKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKViewController.h; sourceTree = "<group>"; };
+		98F25B3ED665F8CD13C0C2D5604B4DF3 /* MJPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhotoBrowser.m; sourceTree = "<group>"; };
+		98FB368AC19F73E5F99D4293F7E9FF03 /* DKProfileWorkAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileWorkAlertViewController.m; sourceTree = "<group>"; };
+		9AC9838BD25E611B4810331E47CD923B /* DKProfileUserInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKProfileUserInfoViewController.xib; sourceTree = "<group>"; };
+		9B3F38ED510167F87999B030F1EACC9E /* DKOrderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderListViewController.m; sourceTree = "<group>"; };
+		9BA6A2B095C78AFF2EE474A1C24588A7 /* DKStarInfoDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKStarInfoDetail.h; sourceTree = "<group>"; };
+		9DB1BDEE9B5783A8D9F67698EB229447 /* DKUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKUserInfo.m; sourceTree = "<group>"; };
+		9E158B4FE449BB7032EBDF83CF129A9D /* MJPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJPhotoBrowser.bundle; sourceTree = "<group>"; };
+		9E55ADC077554923F56E42C61CF65B74 /* DKProfileGradeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileGradeCell.m; sourceTree = "<group>"; };
+		9ED6FFDE814AC9EBAA30CF159E1E38E8 /* DKProblemTypeSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProblemTypeSecondViewController.m; sourceTree = "<group>"; };
+		A1572952289CAE59C235B8CF3F7B585B /* DKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKWebViewController.h; sourceTree = "<group>"; };
+		A1B3AE3F2458EE8F5048F3550F1A517A /* ALCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCalendarCell.m; sourceTree = "<group>"; };
+		A2E51780B060074C4E84E52A36B71FC1 /* ALCalendarHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCalendarHelper.h; sourceTree = "<group>"; };
+		A3847750BAEA1DF5AA0F3CEA3A8E9382 /* ALCalendarPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCalendarPicker.h; sourceTree = "<group>"; };
+		A38616C5FAB2A9DCE5467AA6FF274C10 /* DKProfileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileCell.m; sourceTree = "<group>"; };
+		A3C7375331C786D57E5506C67191D6CC /* DKOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderViewController.m; sourceTree = "<group>"; };
+		A42FC894A2DA035CEE9C39B969D228F6 /* DKProfileService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileService.h; sourceTree = "<group>"; };
+		A4D6C4F710CA9723C5C660D3DC9C48F5 /* DKScheduleIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKScheduleIndicatorView.h; sourceTree = "<group>"; };
+		A515D7AF92F46E0B0809E1AF2AAA70ED /* DKOrderDealBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderDealBarView.h; sourceTree = "<group>"; };
+		A5CB0D7988596435FDAE1157969006E3 /* YZDisplayViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewHeader.h; sourceTree = "<group>"; };
+		A61B582B67A2357D67E05CE430F47F3C /* DKOrderRemindCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderRemindCount.h; sourceTree = "<group>"; };
+		A6A530FBA641B9FF085C912E544BC222 /* UINavigationController+DKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+DKExtension.h"; sourceTree = "<group>"; };
+		A845D9BA9872382DFD148496B667D472 /* DKScheduleEmptyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKScheduleEmptyViewController.xib; sourceTree = "<group>"; };
+		A8E960FE0D2C36B118D9D648547277F5 /* DKProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileViewController.h; sourceTree = "<group>"; };
+		A9130DE4F3443B4B9983489ED9F605F7 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		A93F7CE7FE178C3B049E09F7DF07EBD2 /* UIAlertController+DKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+DKExtension.m"; sourceTree = "<group>"; };
+		AB23BB7F97EAF825C4536A182F7622B1 /* DKMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKMenuTableViewController.h; sourceTree = "<group>"; };
+		AC83DDFCBCDB36A36DD7BA106DE061E5 /* UIView+DKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DKExtension.h"; sourceTree = "<group>"; };
+		AF2DF0F93A9244D75AE88FE01CB4ADD2 /* DKOrderService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderService.m; sourceTree = "<group>"; };
+		AF77C34D313A22720E1D3A197DC0CCDE /* DKProfileSuccessAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileSuccessAlertViewController.m; sourceTree = "<group>"; };
+		AFD44044DD37A7FB60569CF77DC17B7F /* DKProfileGradeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileGradeDetailViewController.m; sourceTree = "<group>"; };
+		B00C0E33D623C91D4D93B2F2C1C4FE78 /* DKProfileStarInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileStarInfo.h; sourceTree = "<group>"; };
+		B1161897DB3FAC31F39770602BFC51AD /* DKBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKBadgeView.h; sourceTree = "<group>"; };
+		B2D6D84BCA80776D3CC704D169ECCC92 /* DKConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKConst.h; sourceTree = "<group>"; };
+		B47F68FF9F88701E40A6FBD2EC6FB4EE /* DKProblemTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProblemTypeViewController.h; sourceTree = "<group>"; };
+		B5D279BBA558C27E937C17CFEC786153 /* ALCalendarDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCalendarDate.h; sourceTree = "<group>"; };
+		B782767C13657AA50A3FE89D28751046 /* NSString+DKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DKExtension.m"; sourceTree = "<group>"; };
+		B796842B67AD62BA58A07B01E26EC254 /* DKOrderContinueDealBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderContinueDealBarView.m; sourceTree = "<group>"; };
+		B7A5E4AE51D1EBB03008738DC08F558B /* DKOrderTurnStaffCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderTurnStaffCell.h; sourceTree = "<group>"; };
+		B7E16CA2B3016DD807173C74AB5C67D0 /* DKProfileUserInfoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileUserInfoViewModel.h; sourceTree = "<group>"; };
+		B8F6ABE997EC08B04FA9CFDA38FE7F93 /* DKNoticeBarButtonItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKNoticeBarButtonItemView.xib; sourceTree = "<group>"; };
+		B921CF63935B71FFC868B41C2D55139C /* DKFaultDescriptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKFaultDescriptionView.h; sourceTree = "<group>"; };
+		B997C9242892D093B5B8DF59EE4C1AD7 /* DKUserSetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKUserSetPasswordViewController.h; sourceTree = "<group>"; };
+		BA1B77E2F7034A1F587610F848166B56 /* DKUserForgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKUserForgetViewController.m; sourceTree = "<group>"; };
+		BA239A0B7245FEBBE06AEC0AB32A7D2A /* ALCalendarCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCalendarCollectionView.m; sourceTree = "<group>"; };
+		BAB3CB141F9731FEE56D186304B8D263 /* MJPhotoToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhotoToolbar.m; sourceTree = "<group>"; };
+		BB742BA16C800FA9210359C608BE51E4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB83F0E547597F2443DFA17E4CE839F8 /* DKOrderTurnStaffCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKOrderTurnStaffCell.xib; sourceTree = "<group>"; };
+		BE6DA8AA21354D2C1549E66FA49D8487 /* DKProfileGradeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileGradeDetailViewController.h; sourceTree = "<group>"; };
+		BFDF74D3B77568BCDD439662A068390A /* DKCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKCacheManager.h; sourceTree = "<group>"; };
+		C093D252A1700D24F8E64617DCA44328 /* DKProblemTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProblemTypeViewController.m; sourceTree = "<group>"; };
+		C13644F296C91DF45E72C4661BABE033 /* DKUserLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKUserLoginViewController.m; sourceTree = "<group>"; };
+		C21C7DD5FF7E6A166787730A66FB44E5 /* DKScheduleViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKScheduleViewModel.m; sourceTree = "<group>"; };
+		C24CACD6FC30D690454C67088361A721 /* DKQiNiuManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKQiNiuManager.m; sourceTree = "<group>"; };
+		C2F9C546CD796C1A0C1C8B366CABF936 /* DKOrderStaff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderStaff.m; sourceTree = "<group>"; };
+		C38151533190F4AEE969E12F28A823EA /* DKContactArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKContactArea.h; sourceTree = "<group>"; };
+		C3C151FECE1D1F60EE4F36B86C8C3855 /* DKOrderList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderList.h; sourceTree = "<group>"; };
+		C4C8503876C839148E3C144A9AE967CB /* DKDealWayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKDealWayCell.m; sourceTree = "<group>"; };
+		C50AC62E247AA10F0323FECCAFAEA34E /* DKOrderWikiSecond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderWikiSecond.m; sourceTree = "<group>"; };
+		C50FE3BDC7FFC75CC56B160AB3FE0558 /* DKGradeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKGradeViewModel.m; sourceTree = "<group>"; };
+		C521B36B3E0C5B4A48DA27EA33EDD2CE /* DKUserChangePhoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKUserChangePhoneViewController.xib; sourceTree = "<group>"; };
+		C52D1CEFF817E591050866D099350EBD /* DKOrderRemindCountView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderRemindCountView.h; sourceTree = "<group>"; };
+		C562B311B1E46EE78F053A80591A7DCA /* DKOrderRemindCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderRemindCount.m; sourceTree = "<group>"; };
+		C60F0C89FD6F97E9291517AA0B972BE5 /* DKOrderStaff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderStaff.h; sourceTree = "<group>"; };
+		C64A6D35B5DF26032CFD36BB5136FB98 /* DKNoticeBarButtonItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKNoticeBarButtonItemView.m; sourceTree = "<group>"; };
+		C6BCEF2D61E9C0D927127ECE564EB462 /* DKStaffContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKStaffContacts.h; sourceTree = "<group>"; };
+		C718366A7F4FC824757D861982C52671 /* DKProfileHelpViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileHelpViewModel.m; sourceTree = "<group>"; };
+		C75036CBED1C91FBFFC9635F6C3ADACB /* DKUserLoginRegisterParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKUserLoginRegisterParams.m; sourceTree = "<group>"; };
+		C9217CF6BD33CBBB169C6FAB59287B62 /* DKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKNavigationController.h; sourceTree = "<group>"; };
+		CB2F989B0F75E1E692BEDEE17E86C8D1 /* Pods-ShengHai.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShengHai.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-ShengHai/Pods-ShengHai.adhoc.xcconfig"; sourceTree = "<group>"; };
+		CB97F7380570A304024743920BB65202 /* DKProfileNotificationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKProfileNotificationCell.xib; sourceTree = "<group>"; };
+		CC1C4606B548769CF0E41C69C6A648A5 /* ALCalendarConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCalendarConfig.h; sourceTree = "<group>"; };
+		CC23ABC4C32C62A8FA36286ACFD0E79F /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		CC86A7D242B581276B2B62910C6AE60C /* DKScheduleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKScheduleCell.m; sourceTree = "<group>"; };
+		CCD5564161B0B86803305D8DD7EA69E2 /* DKSettingAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKSettingAboutViewController.xib; sourceTree = "<group>"; };
+		CD035008338A37958B1AD556617C78AD /* DKQrcodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKQrcodeViewController.h; sourceTree = "<group>"; };
+		CD416B51562D2383ABC0C83EF7B22E24 /* UIImage+DKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DKExtension.h"; sourceTree = "<group>"; };
+		CD48070FB6775E615F9561450A52A70D /* DKMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKMacro.h; sourceTree = "<group>"; };
+		CDAD179F65D8DB9D866A04A343154915 /* DKOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderCell.h; sourceTree = "<group>"; };
+		CEF15EA18FAA907AA708EB7524D30D69 /* DKStaffContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKStaffContacts.m; sourceTree = "<group>"; };
+		CF669280A0BEEF2FDF65E828943A6A57 /* DKProfileHelpProblemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileHelpProblemsViewController.m; sourceTree = "<group>"; };
+		D083B695B3B8B1D5C5A20CC55713684A /* DKHelpProblemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKHelpProblemViewController.m; sourceTree = "<group>"; };
+		D0B3443A55D096F75D5BF113E60E1008 /* DKNotice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKNotice.h; sourceTree = "<group>"; };
+		D0D8F6859905C11BFB6521567BE20043 /* DKScheduleIndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKScheduleIndicatorView.xib; sourceTree = "<group>"; };
+		D1F845C4E18E8775482DB1B44D158B3B /* DKScheduleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKScheduleListViewController.m; sourceTree = "<group>"; };
+		D2F0D68B5536EB00A288CB4CD4CC3F5E /* MJPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhotoBrowser.h; sourceTree = "<group>"; };
+		D329F1B9A95CA16C9A8C9479F676AC4C /* DKTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKTabBar.h; sourceTree = "<group>"; };
+		D6EB99974B62854F0D3CD8338FA21B69 /* DKScheduleEmptyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKScheduleEmptyViewController.h; sourceTree = "<group>"; };
+		D7782255FEE0D2F11586B01DDAAA3B71 /* DKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKExtension.h; sourceTree = "<group>"; };
+		D7D9D2B40CEBA72F94160F774CD7999B /* DKProfileKnowledgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileKnowledgeViewController.m; sourceTree = "<group>"; };
+		D7F18B9C7CFEAC9CDAA561EAE0CE45DD /* DKTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKTabBar.m; sourceTree = "<group>"; };
+		D82CFB5896508A0475CB0CA0B72DE665 /* DKDealEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKDealEventViewController.m; sourceTree = "<group>"; };
+		D840542D6B9437E5AF735CEF247E10B8 /* DKExtensionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKExtensionConfig.m; sourceTree = "<group>"; };
+		D8C283683DC50EDF16977159C5F8462A /* MJPhotoLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhotoLoadingView.h; sourceTree = "<group>"; };
+		DBCA5C3C511639C8C19261141385D0F5 /* DKTableViewPageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKTableViewPageManager.h; sourceTree = "<group>"; };
+		DC18953734D874DD656EC64A1D92C390 /* DKProfileKnowledgeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKProfileKnowledgeViewController.xib; sourceTree = "<group>"; };
+		DC7D1AFEE4CCD0BBFD899E0BC6812A59 /* DKUserLoginRegisterViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKUserLoginRegisterViewModel.h; sourceTree = "<group>"; };
+		DCCA84D3D90DF2EAF5A0F661620C5EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE4458EBCB314CD92759720C29DAB7FB /* DKProfileHelpCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileHelpCell.h; sourceTree = "<group>"; };
+		DFA103D48360354A4A64591A4A4FA641 /* DKDayCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKDayCalendar.m; sourceTree = "<group>"; };
+		DFBD8631072AE7250166999987C6755E /* DKProblemTypeThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProblemTypeThirdViewController.h; sourceTree = "<group>"; };
+		E026DC33F4F2C4FF872A2AC99B44E89A /* DKProfileNotificationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileNotificationCell.h; sourceTree = "<group>"; };
+		E0F8CD74F9B7DA68D522FB0BE03F14FE /* DKProfileAddressBookDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKProfileAddressBookDetailCell.xib; sourceTree = "<group>"; };
+		E14FE7C8AEB8C6638E9DA095F0AB41E8 /* DKOrderDetailViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderDetailViewModel.h; sourceTree = "<group>"; };
+		E2E641B29B51569D8E0B2C388A6E1528 /* DKProfileShareKnowledgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileShareKnowledgeViewController.m; sourceTree = "<group>"; };
+		E3E3A6D710150C7894CCAC7A29249E4B /* DKProfileHelpCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKProfileHelpCell.xib; sourceTree = "<group>"; };
+		E4A3994576473557A81945BE19AD93A2 /* DKUserLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKUserLoginViewController.xib; sourceTree = "<group>"; };
+		E4F4A8C65044E015E80D41CDA2107DC2 /* DKDealWayWikiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDealWayWikiViewController.h; sourceTree = "<group>"; };
+		E55071A7CE4838ED6679E975D576CD63 /* DKApplicationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKApplicationService.m; sourceTree = "<group>"; };
+		E578C79D136D243C2680F4C25966FD56 /* DKScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKScheduleViewController.m; sourceTree = "<group>"; };
+		E58889238C482A69546A1D399B671D15 /* DKContactArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKContactArea.m; sourceTree = "<group>"; };
+		E5E8DC64D8DBDBD856082E9BCF92FA6E /* DKOrderTurnStaffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderTurnStaffViewController.m; sourceTree = "<group>"; };
+		E5F1E5DB18BB0B790B42AA1D1DC8B66F /* ALCalendarConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCalendarConfig.m; sourceTree = "<group>"; };
+		E62655C68E9FA71BAF45907BC625B5C0 /* DKOrderUserInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderUserInfoView.h; sourceTree = "<group>"; };
+		E654FC267EF99A5A82440B109D02832B /* DKDealWayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKDealWayCell.xib; sourceTree = "<group>"; };
+		E79CE404A33E05E144A77FDB981EED2C /* DKViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKViewModel.m; sourceTree = "<group>"; };
+		E7D28BB7EE15057D8A95640E27658549 /* DKProfileService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProfileService.m; sourceTree = "<group>"; };
+		E9B5BE9354DF7C0DAC251BD5CEBD5902 /* DKQiNiuManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKQiNiuManager.h; sourceTree = "<group>"; };
+		EA62DADD172FE51DE051C1F1493DAF08 /* DKMonthCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKMonthCalendar.m; sourceTree = "<group>"; };
+		EA864EDF375F5EB56276300987FB0DF2 /* DKMaintenanceRecordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKMaintenanceRecordView.xib; sourceTree = "<group>"; };
+		EB421AE74B4B2A99956BA2DFA6D397AE /* DKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKView.h; sourceTree = "<group>"; };
+		EBCCB8E9CD0C14FDF36B9D9ED86A18CA /* UITableView+DKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DKExtension.h"; sourceTree = "<group>"; };
+		EC7D68B07E71F7EC57367957E58E3058 /* DKScheduleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKScheduleCell.h; sourceTree = "<group>"; };
+		ED078FB9DA1C87A62DBA18EF3856BD1A /* UITableView+DKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DKExtension.m"; sourceTree = "<group>"; };
+		ED782EBB0B701842B62431AD8628C9ED /* DKApplicationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKApplicationManager.h; sourceTree = "<group>"; };
+		EE168816179EEA59947F7FBC856D893B /* DKTableNoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKTableNoDataView.h; sourceTree = "<group>"; };
+		EE95B2ECB85A40158E09966EF1E842FF /* DKOrderWikiFirst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOrderWikiFirst.m; sourceTree = "<group>"; };
+		EF91D6ABF931EC1472BDF9A7F5FC0BD0 /* DKProfileAddressBookCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKProfileAddressBookCell.xib; sourceTree = "<group>"; };
+		F071218D0198983F26CD354AB4B2A9AF /* DKUserForgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKUserForgetViewController.h; sourceTree = "<group>"; };
+		F40ECADDDFC923582C2729F4387DA109 /* DKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKView.m; sourceTree = "<group>"; };
+		F47DABAAE08A9CAAD249F91966C4F7E8 /* DKDayCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDayCalendar.h; sourceTree = "<group>"; };
+		F48D851EA18198842042A5CCAB89F31E /* ShengHai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShengHai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51F7461B3DE66AA6BD4CEEDD59819FC /* Pods-ShengHai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShengHai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShengHai/Pods-ShengHai.debug.xcconfig"; sourceTree = "<group>"; };
+		F751FCE9A67B6ACAD261E62107083D04 /* UIColor+DKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DKExtension.m"; sourceTree = "<group>"; };
+		F892CB74936A22BA72D49087ED605A9F /* ShengHai.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShengHai.pch; sourceTree = "<group>"; };
+		F8B73C73DF1D34EEE14C77F47FB35F1C /* DKPauseOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKPauseOrderViewController.m; sourceTree = "<group>"; };
+		F8F38736A5CFAE2215ED8E7ABAA06AB5 /* DKProfileHelpContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKProfileHelpContactViewController.xib; sourceTree = "<group>"; };
+		F905443B86562574F529A19B9C07ADED /* MJPhotoLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhotoLoadingView.m; sourceTree = "<group>"; };
+		F915EDBB0BD10EA71108019622FC76FD /* DKCompleteOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKCompleteOrderViewController.m; sourceTree = "<group>"; };
+		FA2D692301E58B4E6E973D6D64E6D0D7 /* DKTableViewPageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKTableViewPageManager.m; sourceTree = "<group>"; };
+		FAB28E3D375879713800F930C9F51F53 /* DKProfileHelpRulesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProfileHelpRulesViewController.h; sourceTree = "<group>"; };
+		FADC84FA41CC3031F4E0BDC0A4C51B1B /* DKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKNavigationController.m; sourceTree = "<group>"; };
+		FB15AD48380FCF115F614CE9C0D118F0 /* DKAccemptOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKAccemptOrderViewController.h; sourceTree = "<group>"; };
+		FD808A1FD45E6602CB1147198DAFDA71 /* DKViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKViewModel.h; sourceTree = "<group>"; };
+		FDAB90210ED3337F997F079143C2CF09 /* UIBarButtonItem+DKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+DKExtension.m"; sourceTree = "<group>"; };
+		FE600F549A18EB65EFD2B1F66D7666C5 /* DKOrderRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOrderRecord.h; sourceTree = "<group>"; };
+		FEEDB0F9702ED14054DAB71F0F17CA51 /* DKContactInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKContactInformation.m; sourceTree = "<group>"; };
+		FFE06C69B4DD647D9DC88A8FDDAECC6E /* ShengHai.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShengHai.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EA81AC05354339FFFD2966BA29326D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E4869E128C07649406CA0E05B78610 /* libPods-ShengHai.a in Frameworks */,
+				9C151C59CBA25EBDF467677515F15337 /* libopencore-amrnb.a in Frameworks */,
+				BA7C13BEFF553FCFAC6BB3B284F49D35 /* libopencore-amrwb.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		017EFC6F15B7E4F8F6314B1BDA8B599C /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				10D74CB05EFB9CC1C12EE3349D244214 /* Controller */,
+				720A0B9E94EED263603AB4A8964DFAB8 /* Model */,
+				91262F373322A4A62CCBD7650A75FCF9 /* Service */,
+				1858154FEF34321F5836F49A2632A348 /* View */,
+				EE62334A36E3E0742C84AB4E0936676C /* ViewModel */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		02C27D4F457B616210BBAD925807059E /* Grade */ = {
+			isa = PBXGroup;
+			children = (
+				BE6DA8AA21354D2C1549E66FA49D8487 /* DKProfileGradeDetailViewController.h */,
+				AFD44044DD37A7FB60569CF77DC17B7F /* DKProfileGradeDetailViewController.m */,
+				0ECC3229F4A2C4E1377388B4EEBCDFFB /* DKProfileGradeDetailViewController.xib */,
+				8A546E18A30BCAEF7EE276BB270EFAEA /* DKProfileGradeListViewController.h */,
+				0FBD146668CD56DD4CC9FAB93009E7A4 /* DKProfileGradeListViewController.m */,
+			);
+			path = Grade;
+			sourceTree = "<group>";
+		};
+		083A24D8DEDE5195471CC7547B3708DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5265CE9517EBBDC8CD4C8052AD31ADFB /* DKQiNiuConfigInfo.h */,
+				003A6C17764917B79398F3D3766E6722 /* DKQiNiuConfigInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10D74CB05EFB9CC1C12EE3349D244214 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D6EB99974B62854F0D3CD8338FA21B69 /* DKScheduleEmptyViewController.h */,
+				08256371A3030CFD3BA1BE59F1E239CB /* DKScheduleEmptyViewController.m */,
+				A845D9BA9872382DFD148496B667D472 /* DKScheduleEmptyViewController.xib */,
+				92C0E59CDE73538295DC1BC62C4F2852 /* DKScheduleListViewController.h */,
+				D1F845C4E18E8775482DB1B44D158B3B /* DKScheduleListViewController.m */,
+				7D96BDCDBF1BD1DA0DC014CDADCF3379 /* DKScheduleViewController.h */,
+				E578C79D136D243C2680F4C25966FD56 /* DKScheduleViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		114154C25D35BF8A8D6B904B21D0A281 /* ProfileAlert */ = {
+			isa = PBXGroup;
+			children = (
+				352EC518950BFCBF3D9C540EE7AD9A9E /* DKProfileSuccessAlertViewController.h */,
+				AF77C34D313A22720E1D3A197DC0CCDE /* DKProfileSuccessAlertViewController.m */,
+				60DE22D67AC8223263349FB1A5082D55 /* DKProfileSuccessAlertViewController.xib */,
+				07CE0249076C6636B09ADC3F23C4DD0D /* DKProfileWorkAlertViewController.h */,
+				98FB368AC19F73E5F99D4293F7E9FF03 /* DKProfileWorkAlertViewController.m */,
+				93A9A258DA9129FFCDB5D0FD2B768D12 /* DKProfileWorkAlertViewController.xib */,
+			);
+			path = ProfileAlert;
+			sourceTree = "<group>";
+		};
+		1858154FEF34321F5836F49A2632A348 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC7D68B07E71F7EC57367957E58E3058 /* DKScheduleCell.h */,
+				CC86A7D242B581276B2B62910C6AE60C /* DKScheduleCell.m */,
+				0F7BD7D9F15B89471EBB741B272EC334 /* DKScheduleCell.xib */,
+				A4D6C4F710CA9723C5C660D3DC9C48F5 /* DKScheduleIndicatorView.h */,
+				8A357AFF730FF27601D27FE0AE777795 /* DKScheduleIndicatorView.m */,
+				D0D8F6859905C11BFB6521567BE20043 /* DKScheduleIndicatorView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2742167B9AA582E3C1FEA5DCC1064311 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E14FE7C8AEB8C6638E9DA095F0AB41E8 /* DKOrderDetailViewModel.h */,
+				7BD61D52BD758A14F2F21F2C78CAFAAC /* DKOrderDetailViewModel.m */,
+				9356B05D654A14DF2DCD9C0D1528380C /* DKOrderViewModel.h */,
+				63F4899EEF60E013E3FCFB0807DB173C /* DKOrderViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		28BDC0DAD60B885BE11BC4D6A83B7862 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E13EEACF897530CB0A1C07F5A5C7A4F6 /* CompleteOrder */,
+				FB15AD48380FCF115F614CE9C0D118F0 /* DKAccemptOrderViewController.h */,
+				374AA2BF29E11BF974259939F558DD99 /* DKAccemptOrderViewController.m */,
+				2710429FF59FF773596BA77C94D67F34 /* DKAccemptOrderViewController.xib */,
+				4B00F33F191E1E5641CD6FD2F08F8047 /* DKCancleOrderViewController.h */,
+				8D50461DA05986F13437ACA4A862B0DE /* DKCancleOrderViewController.m */,
+				8C89BF05EFCBE36AAA34B8122899179D /* DKCancleOrderViewController.xib */,
+				8F4ABAC6B0951B839954BD8D14F6573F /* DKOrderDetailViewController.h */,
+				9084CA629977EA600C88A23FBED1FFD6 /* DKOrderDetailViewController.m */,
+				64BE9A2750B51FC2745E9CFEB204C189 /* DKOrderDetailViewController.xib */,
+				5CCE10331CE38E420C612EC5EBD43F8C /* DKOrderListViewController.h */,
+				9B3F38ED510167F87999B030F1EACC9E /* DKOrderListViewController.m */,
+				15B1B275B4D0AD125A5846BE76959276 /* DKOrderTurnStaffViewController.h */,
+				E5E8DC64D8DBDBD856082E9BCF92FA6E /* DKOrderTurnStaffViewController.m */,
+				7B2D06C904833E24B1B85059F06FB748 /* DKOrderViewController.h */,
+				A3C7375331C786D57E5506C67191D6CC /* DKOrderViewController.m */,
+				79B5EB2308CA572CA78F7891544A1889 /* DKPauseOrderViewController.h */,
+				F8B73C73DF1D34EEE14C77F47FB35F1C /* DKPauseOrderViewController.m */,
+				2F7F3301A8496291475F97687BCFEBCB /* DKPauseOrderViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3682916808EF3FAD00434EED90181EDC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A42FC894A2DA035CEE9C39B969D228F6 /* DKProfileService.h */,
+				E7D28BB7EE15057D8A95640E27658549 /* DKProfileService.m */,
+				3A3488B68E4999F4E8895DF99B16ACC7 /* DKScheduleParam.h */,
+				6230D246D8FB344CDFF3AC0FA1A3769C /* DKScheduleParam.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		38855CC2B615B2114ED8AE98CE465E32 /* DKUncaughtException */ = {
+			isa = PBXGroup;
+			children = (
+				414721C223C87741FA0A4EB9BA3941DA /* DKUncaughtExceptionHandler.h */,
+				49E9FAC70D12655F1D69AA10BC74FC82 /* DKUncaughtExceptionHandler.m */,
+			);
+			path = DKUncaughtException;
+			sourceTree = "<group>";
+		};
+		3D38A1CD8A68A4F4EC570A24CB17961F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E5784C5F4ED1D16A147646CE0D61E91 /* Assets.xcassets */,
+				49DC87114E2195A85FFD7B57BBB223FE /* Info.plist */,
+				31616D8E39DE9F53AF32C59243EF34A7 /* LaunchScreen.storyboard */,
+				5F2C7D743C8DBAD9CA32549C0385DB9D /* main.m */,
+			);
+			name = "Supporting Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3E36BAE709A64D4379267453B35E358B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				71203ACE1DD8C0979C6F612DFB844826 /* Category */,
+				93DF8EB2D11D5175A51E4D5CC59E8E96 /* Controller */,
+				D901CC71E88AA20A7F2858B896E52CD4 /* Lib */,
+				083A24D8DEDE5195471CC7547B3708DB /* Model */,
+				3FEA6B7FA8699445CB4DF5F758BD41DE /* Service */,
+				455A53BF327BA3E5D3C19492DDE7FD02 /* Singleton */,
+				B0AECC79683047A2B67F33CA40021B18 /* View */,
+				B33A323C825DB04A9EB6496B9CA7C479 /* ViewModel */,
+				BB742BA16C800FA9210359C608BE51E4 /* AppDelegate.h */,
+				67883590AE41C9ABE922B6C988B878A1 /* AppDelegate.m */,
+				B2D6D84BCA80776D3CC704D169ECCC92 /* DKConst.h */,
+				3E6AB5432396FA8371C28A2EEECC8552 /* DKConst.m */,
+				51715CEE5B4C2067B6F00207642F54F9 /* DKExtensionConfig.h */,
+				D840542D6B9437E5AF735CEF247E10B8 /* DKExtensionConfig.m */,
+				F892CB74936A22BA72D49087ED605A9F /* ShengHai.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3F2E96F866F76C3136CD8B2183E16F86 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				9FCE868C46B5BAB2806BEEE21D3E5D80 /* Controller */,
+				A15C892487C2D484917F6F393163E30E /* Model */,
+				98B888600FF909BD58C31A633434FC03 /* Service */,
+				99F2331EE6C191187CEB0C672D917018 /* View */,
+				B410755A98258C19C6EB21B0F3662D0D /* ViewModel */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		3F9C3B5B2C3997AB7696D3A8DF50F69B /* DKFeatureViewPage */ = {
+			isa = PBXGroup;
+			children = (
+				291464AD5ED7C82E5ED184077BC0DD93 /* UIView+Frame.h */,
+				6EDC046BEB8DC405AF9FB46AEA5EDDAD /* UIView+Frame.m */,
+				2B0044DE93A81720F78D213881573036 /* YZDisplayTitleLabel.h */,
+				894A73A04A7B356CADD70AB3CE1901FA /* YZDisplayTitleLabel.m */,
+				34312955DB00D2B97672C0BC0D63264E /* YZDisplayViewController.h */,
+				4707E11F9E15B81ABEEDE0C4828B2115 /* YZDisplayViewController.m */,
+				A5CB0D7988596435FDAE1157969006E3 /* YZDisplayViewHeader.h */,
+				66D6FBEE8A87CAA2ECF3C6CF268FC6D6 /* YZFlowLayout.h */,
+				0701361513731F187B135B67873B8F34 /* YZFlowLayout.m */,
+			);
+			path = DKFeatureViewPage;
+			sourceTree = "<group>";
+		};
+		3FEA6B7FA8699445CB4DF5F758BD41DE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8648CC290BFD4D840E6A77BD7F9AE9FA /* DKApplicationService.h */,
+				E55071A7CE4838ED6679E975D576CD63 /* DKApplicationService.m */,
+				DBCA5C3C511639C8C19261141385D0F5 /* DKTableViewPageManager.h */,
+				FA2D692301E58B4E6E973D6D64E6D0D7 /* DKTableViewPageManager.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		455A53BF327BA3E5D3C19492DDE7FD02 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				ED782EBB0B701842B62431AD8628C9ED /* DKApplicationManager.h */,
+				164DDE22655E4A79B9AB52237E22B013 /* DKApplicationManager.m */,
+				BFDF74D3B77568BCDD439662A068390A /* DKCacheManager.h */,
+				5F5C22CD29DB9884FF461F79FC2AEBF5 /* DKCacheManager.m */,
+				E9B5BE9354DF7C0DAC251BD5CEBD5902 /* DKQiNiuManager.h */,
+				C24CACD6FC30D690454C67088361A721 /* DKQiNiuManager.m */,
+				7A04175E597077C103307CE352679975 /* Singleton.h */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		45C7C4E678F589E2EB561947EFE820E5 /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				099F3F51F072E3121FDB9FE84176764E /* dec_if.h */,
+				A9130DE4F3443B4B9983489ED9F605F7 /* if_rom.h */,
+				5A51C74A7335C42A1B1867480A092543 /* libopencore-amrwb.a */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		555038CCED7FF9D4D3F5E3CF1155B36C /* DKHttpTool */ = {
+			isa = PBXGroup;
+			children = (
+				7C81E3BCA7F9078C61D999814E68DB8B /* DKHTTPTool.h */,
+				75D5DA169D141129A7CAD835D9962506 /* DKHTTPTool.m */,
+				24355352FB85C0E329C1B8EC8E88E10E /* DKHttpResponse.h */,
+				54B3B06BD8EA8229A41DFA99BB23B80A /* DKHttpResponse.m */,
+			);
+			path = DKHttpTool;
+			sourceTree = "<group>";
+		};
+		589F0F05CBE2A955DFB865CA8F75AAAF /* DKMenuTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AB23BB7F97EAF825C4536A182F7622B1 /* DKMenuTableViewController.h */,
+				2460118DDE339B98AF621FD970195A15 /* DKMenuTableViewController.m */,
+			);
+			path = DKMenuTableViewController;
+			sourceTree = "<group>";
+		};
+		5C3BBBCC4D5762C7DE234ECB6B863149 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				28BDC0DAD60B885BE11BC4D6A83B7862 /* Controller */,
+				D6CFE4F49D1769893580A50435F7D353 /* Model */,
+				E2826CE28E12579A53DABC879F8A2DDC /* Service */,
+				DDA084079CC8B4173E723BB17E0071BA /* View */,
+				2742167B9AA582E3C1FEA5DCC1064311 /* ViewModel */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		5E391992FCB3EE4311205E8DE87416CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83693DE3B862D35DA29A4BA1FDAD1B09 /* libPods-ShengHai.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EBC0FCE96F7CC46BEDC9C682C927EBA /* ShengHai */ = {
+			isa = PBXGroup;
+			children = (
+				7579ED555826DB77889FF0FC1320DDA9 /* Classes */,
+				FFE06C69B4DD647D9DC88A8FDDAECC6E /* ShengHai.entitlements */,
+			);
+			path = ShengHai;
+			sourceTree = "<group>";
+		};
+		6196BB5F83DC683F674CC8C23CA96CA0 /* ALCalendarPicker */ = {
+			isa = PBXGroup;
+			children = (
+				644ED50A8728CB59FC1A7314077EDA4B /* ALCalendarCell.h */,
+				A1B3AE3F2458EE8F5048F3550F1A517A /* ALCalendarCell.m */,
+				34ED8EB29374BF135E2E0547877D2B74 /* ALCalendarCollectionView.h */,
+				BA239A0B7245FEBBE06AEC0AB32A7D2A /* ALCalendarCollectionView.m */,
+				CC1C4606B548769CF0E41C69C6A648A5 /* ALCalendarConfig.h */,
+				E5F1E5DB18BB0B790B42AA1D1DC8B66F /* ALCalendarConfig.m */,
+				B5D279BBA558C27E937C17CFEC786153 /* ALCalendarDate.h */,
+				585248EC1A7010E77338F40A6128DC07 /* ALCalendarDate.m */,
+				646755CB03A018C007BBC51B95BEC0E9 /* ALCalendarHeader.h */,
+				116B531464CB511642DF22BDBBD86D67 /* ALCalendarHeader.m */,
+				A2E51780B060074C4E84E52A36B71FC1 /* ALCalendarHelper.h */,
+				6CF4B460DBF15C25197AD673799EEF9E /* ALCalendarHelper.m */,
+				79E0939961A42E4BB7AECA47C444A81A /* ALCalendarPicker.bundle */,
+				A3847750BAEA1DF5AA0F3CEA3A8E9382 /* ALCalendarPicker.h */,
+				96E9AAF7A17B0F44519F1EC40CF0FEB6 /* ALCalendarPicker.m */,
+				94EC901002D7BF301B65A03CBDA76560 /* UIView+Frame.h */,
+				016234E6CAF3A735BC80972E98971403 /* UIView+Frame.m */,
+			);
+			path = ALCalendarPicker;
+			sourceTree = "<group>";
+		};
+		66F3AA0E5DF57EA3EADE394F24E57FCE /* DKExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1720923F48483C7BA56ACDC6C6D743DB /* ALAssetsLibrary+DKExtension.h */,
+				8543605CF416546725A4823E08FEE703 /* ALAssetsLibrary+DKExtension.m */,
+				D7782255FEE0D2F11586B01DDAAA3B71 /* DKExtension.h */,
+				CD48070FB6775E615F9561450A52A70D /* DKMacro.h */,
+				4621436DA6C25E8995B913EB5D45A670 /* NSArray+DKExtension.h */,
+				1AC10CAD4DB3139D817817CC75C4BCEF /* NSArray+DKExtension.m */,
+				642B1DAA4238BE1938F79D64D4CF3C46 /* NSDate+DKExtension.h */,
+				3DEFD7754755BFEB5432D09E36F13701 /* NSDate+DKExtension.m */,
+				14459E43F4A10B039CEC901E1A179E02 /* NSDictionary+DKExtension.h */,
+				95F09AEE4BA68BBEBF33148FCF73A6C8 /* NSDictionary+DKExtension.m */,
+				3D0509AA957BC77E13ACDEFA86E7C3AC /* NSObject+DKExtension.h */,
+				0A5C09B7BE6575BEFB6F51338637E57A /* NSObject+DKExtension.m */,
+				8ACE0A3A65EB9A8A9E24CB7611CA5C4F /* NSString+DKExtension.h */,
+				B782767C13657AA50A3FE89D28751046 /* NSString+DKExtension.m */,
+				23249BB3757E603010E2CBE84550FFC0 /* NSURL+DKExtension.h */,
+				0E442AEAA02628F2E1DE0C25409F0E5F /* NSURL+DKExtension.m */,
+				535B01FD0F5285B261E6D8883C527039 /* UIAlertController+DKExtension.h */,
+				A93F7CE7FE178C3B049E09F7DF07EBD2 /* UIAlertController+DKExtension.m */,
+				5E970F3E0FB25FC9042E1260C8BCFA11 /* UIBarButtonItem+DKExtension.h */,
+				FDAB90210ED3337F997F079143C2CF09 /* UIBarButtonItem+DKExtension.m */,
+				957DEFB2202A76317251C58F3470A4F9 /* UIButton+DKExtension.h */,
+				7F933F3785C992D00F9599845D314CB1 /* UIButton+DKExtension.m */,
+				525D0EF6B2E1C6BB1CF3B5CB554EC2C9 /* UIColor+DKExtension.h */,
+				F751FCE9A67B6ACAD261E62107083D04 /* UIColor+DKExtension.m */,
+				CD416B51562D2383ABC0C83EF7B22E24 /* UIImage+DKExtension.h */,
+				2C04AC62ACDDA3BD3D0775312BB2D298 /* UIImage+DKExtension.m */,
+				A6A530FBA641B9FF085C912E544BC222 /* UINavigationController+DKExtension.h */,
+				34B142BEA915E2D3A949DE12260B4E03 /* UINavigationController+DKExtension.m */,
+				EBCCB8E9CD0C14FDF36B9D9ED86A18CA /* UITableView+DKExtension.h */,
+				ED078FB9DA1C87A62DBA18EF3856BD1A /* UITableView+DKExtension.m */,
+				AC83DDFCBCDB36A36DD7BA106DE061E5 /* UIView+DKExtension.h */,
+				2AB658A6E7ED76452D5BB8892530A840 /* UIView+DKExtension.m */,
+				7B54F3F396BABA726772C9FE6BA0BAA0 /* UIViewController+DKExtension.h */,
+				423E106EB077F5D5F9B7BFB942117E62 /* UIViewController+DKExtension.m */,
+			);
+			path = DKExtension;
+			sourceTree = "<group>";
+		};
+		699589DBD2CABE8FCCA0214D747BD176 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C926AAB5451DE0E12EB7DA4F85A008DF /* AddressBook */,
+				02C27D4F457B616210BBAD925807059E /* Grade */,
+				E54AEF54513F30A348F5906039588BB2 /* Help */,
+				114154C25D35BF8A8D6B904B21D0A281 /* ProfileAlert */,
+				4D6B48C44BF6E6763B3BEA0D4D019848 /* DKProfileAddressBookViewController.h */,
+				41F52069F65740AB314887A7F68454E3 /* DKProfileAddressBookViewController.m */,
+				7EBE71DD2DD21B57ECAC5CD9C0B3DADF /* DKProfileFeedbackViewController.h */,
+				0854421FE10CB674397E5795E3CDCDD7 /* DKProfileFeedbackViewController.m */,
+				7BBF0357892CA6F59045F2DA8DE85FB1 /* DKProfileFeedbackViewController.xib */,
+				980477FBA3C01FEEBF122218E8506A69 /* DKProfileGradeViewController.h */,
+				785A62D946CBD9A5CC748D4959442DA5 /* DKProfileGradeViewController.m */,
+				8326BBB881ED3AE3C4AA7555EDEC0A71 /* DKProfileGradeViewController.xib */,
+				65ABF798571EC9D7B3C582C823AD5337 /* DKProfileHelpViewController.h */,
+				6532AAF22B5BFBE9C98FA811DCA2C56D /* DKProfileHelpViewController.m */,
+				7FDC9736E077496A053F98CDBE82DB8B /* DKProfileKnowledgeViewController.h */,
+				D7D9D2B40CEBA72F94160F774CD7999B /* DKProfileKnowledgeViewController.m */,
+				DC18953734D874DD656EC64A1D92C390 /* DKProfileKnowledgeViewController.xib */,
+				8289614533A98334321739758FF65322 /* DKProfileNotificationViewController.h */,
+				272B6BDF16D352DEBFAEA1960212DE9A /* DKProfileNotificationViewController.m */,
+				666A27E3DD6726EBD2DC474659502DAC /* DKProfileShareKnowledgeViewController.h */,
+				E2E641B29B51569D8E0B2C388A6E1528 /* DKProfileShareKnowledgeViewController.m */,
+				55722566EDD7ACD7CDB3B33A0D1E6FBF /* DKProfileShareKnowledgeViewController.xib */,
+				137BC72810DCB069E62B91F11430C3BE /* DKProfileUserInfoViewController.h */,
+				941DB334E7A0F0C240F017C8A60B98A8 /* DKProfileUserInfoViewController.m */,
+				9AC9838BD25E611B4810331E47CD923B /* DKProfileUserInfoViewController.xib */,
+				A8E960FE0D2C36B118D9D648547277F5 /* DKProfileViewController.h */,
+				00213CA43871903839CE5C6E9E2AE65D /* DKProfileViewController.m */,
+				63C89D3963365BA5DE4233070FCF66B8 /* DKProfileViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		71203ACE1DD8C0979C6F612DFB844826 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		720A0B9E94EED263603AB4A8964DFAB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7579ED555826DB77889FF0FC1320DDA9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84C0DA3BA0310D330F36473A331BCB92 /* Main */,
+				5C3BBBCC4D5762C7DE234ECB6B863149 /* Order */,
+				3E36BAE709A64D4379267453B35E358B /* Other */,
+				CCCDF331D8E66D36410294BF6B966884 /* Profile */,
+				017EFC6F15B7E4F8F6314B1BDA8B599C /* Schedule */,
+				3D38A1CD8A68A4F4EC570A24CB17961F /* Supporting Files */,
+				3F2E96F866F76C3136CD8B2183E16F86 /* User */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7F808CCF80A19634030123B5615249CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C38151533190F4AEE969E12F28A823EA /* DKContactArea.h */,
+				E58889238C482A69546A1D399B671D15 /* DKContactArea.m */,
+				5B83170B8A1066E995C5180EE0827742 /* DKContactInformation.h */,
+				FEEDB0F9702ED14054DAB71F0F17CA51 /* DKContactInformation.m */,
+				F47DABAAE08A9CAAD249F91966C4F7E8 /* DKDayCalendar.h */,
+				DFA103D48360354A4A64591A4A4FA641 /* DKDayCalendar.m */,
+				3D3FD8DBC3056D803CC4D5E7C3D6C654 /* DKMonthCalendar.h */,
+				EA62DADD172FE51DE051C1F1493DAF08 /* DKMonthCalendar.m */,
+				D0B3443A55D096F75D5BF113E60E1008 /* DKNotice.h */,
+				466D4230228465040FDA656C76FCC183 /* DKNotice.m */,
+				70FA2CC95861507D31B4EECBF3C9447E /* DKOrderNumber.h */,
+				7548700F6485226AD00676BE5A4A69D4 /* DKOrderNumber.m */,
+				B00C0E33D623C91D4D93B2F2C1C4FE78 /* DKProfileStarInfo.h */,
+				48B17C2D1D1959E68C5937F5BFF74450 /* DKProfileStarInfo.m */,
+				C6BCEF2D61E9C0D927127ECE564EB462 /* DKStaffContacts.h */,
+				CEF15EA18FAA907AA708EB7524D30D69 /* DKStaffContacts.m */,
+				9BA6A2B095C78AFF2EE474A1C24588A7 /* DKStarInfoDetail.h */,
+				7742DE92C8931A2981F1CE6DAF0B1A20 /* DKStarInfoDetail.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84C0DA3BA0310D330F36473A331BCB92 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C039B66F661500A43AD2ED6D3A44797E /* Controller */,
+				BD463EE3A373217C4650BCECE92DDFAE /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		91262F373322A4A62CCBD7650A75FCF9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		93DF8EB2D11D5175A51E4D5CC59E8E96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				21AEBC60A1D71A838918BB69874CF71F /* DKTableViewController.h */,
+				8FBAF65489327583D962FC5CACE2A69B /* DKTableViewController.m */,
+				98B129B61157A4A334CFA2379AEB3073 /* DKViewController.h */,
+				5F933BC7929DA0B0BAC8784EB0EC8F9B /* DKViewController.m */,
+				A1572952289CAE59C235B8CF3F7B585B /* DKWebViewController.h */,
+				8AD07B661948A562E48311D9E9D01A4F /* DKWebViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		98B888600FF909BD58C31A633434FC03 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				21356DF66DE0CFB19CCEA83E537A3CC7 /* DKUserLoginRegisterParams.h */,
+				C75036CBED1C91FBFFC9635F6C3ADACB /* DKUserLoginRegisterParams.m */,
+				93B5FC169A6D99217D73E4A8A2D7FC39 /* DKUserService.h */,
+				6FE59B00A3EDDF1B117EAA9F9ED555C2 /* DKUserService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		98F99F6DB424B60CFC33669BAA7FC7E5 /* amrwapper */ = {
+			isa = PBXGroup;
+			children = (
+				06BB1702C9851984F7906045657DD7B5 /* amrFileCodec.h */,
+				20A134A64F59C6B64DAA622A44B19035 /* amrFileCodec.mm */,
+				5B9D1A1AD18098512176300151785025 /* wav.h */,
+				8C4D0691CF39A4DC947C6BC56F914182 /* wav.mm */,
+			);
+			path = amrwapper;
+			sourceTree = "<group>";
+		};
+		99F2331EE6C191187CEB0C672D917018 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E526708AB529A0D113A0CF16CF00C4D /* MJPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				8F80E7D766BC5802CB3B8E07EC07D91D /* MJPhoto.h */,
+				041C758B95E054F2B66D996995C3E981 /* MJPhoto.m */,
+				9E158B4FE449BB7032EBDF83CF129A9D /* MJPhotoBrowser.bundle */,
+				D2F0D68B5536EB00A288CB4CD4CC3F5E /* MJPhotoBrowser.h */,
+				98F25B3ED665F8CD13C0C2D5604B4DF3 /* MJPhotoBrowser.m */,
+				D8C283683DC50EDF16977159C5F8462A /* MJPhotoLoadingView.h */,
+				F905443B86562574F529A19B9C07ADED /* MJPhotoLoadingView.m */,
+				71BE1C5E509ECC97A5AF7B36E7200A05 /* MJPhotoProgressView.h */,
+				35D93D44002648546750C1EE1E356C3F /* MJPhotoProgressView.m */,
+				01BB22C52C59958FE3D9194A176F5F3D /* MJPhotoToolbar.h */,
+				BAB3CB141F9731FEE56D186304B8D263 /* MJPhotoToolbar.m */,
+				4159385C69FC635ECD80705C09E1F1A3 /* MJPhotoView.h */,
+				1C4A38393E06EA7870F89FD61D1AA351 /* MJPhotoView.m */,
+				18DBCCB662CEA516E9B8992824D727B0 /* SDWebImageManager+MJ.h */,
+				4C92F0989FFF5AAF0A3DD83695B31AD9 /* SDWebImageManager+MJ.m */,
+			);
+			path = MJPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		9FCE868C46B5BAB2806BEEE21D3E5D80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				177EFB7805CEE3604CB012DAC129998D /* DKUserChangePhoneViewController.h */,
+				34B5AE4602C7AF0BA6B1624DCB481A1C /* DKUserChangePhoneViewController.m */,
+				C521B36B3E0C5B4A48DA27EA33EDD2CE /* DKUserChangePhoneViewController.xib */,
+				F071218D0198983F26CD354AB4B2A9AF /* DKUserForgetViewController.h */,
+				BA1B77E2F7034A1F587610F848166B56 /* DKUserForgetViewController.m */,
+				458C4E89A356FD5C97B34E665C8DCB2A /* DKUserForgetViewController.xib */,
+				4F7960204BEF734AD9820C16A9742755 /* DKUserLoginViewController.h */,
+				C13644F296C91DF45E72C4661BABE033 /* DKUserLoginViewController.m */,
+				E4A3994576473557A81945BE19AD93A2 /* DKUserLoginViewController.xib */,
+				B997C9242892D093B5B8DF59EE4C1AD7 /* DKUserSetPasswordViewController.h */,
+				00F18D5DE48FECA0CBA22611701E83B9 /* DKUserSetPasswordViewController.m */,
+				0C450ECB63A455DD1ED678B1B24E8BA4 /* DKUserSetPasswordViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A15C892487C2D484917F6F393163E30E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				671D5E4DA454F6ECFCEADD4191D0A255 /* DKUserInfo.h */,
+				9DB1BDEE9B5783A8D9F67698EB229447 /* DKUserInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A277FEA36D74572BD1782987E75E9871 = {
+			isa = PBXGroup;
+			children = (
+				5E391992FCB3EE4311205E8DE87416CF /* Frameworks */,
+				FEFB2B425C246205F318D79765503F4E /* Pods */,
+				FE27AD15674CBDC215E6E665A6742A6E /* Products */,
+				5EBC0FCE96F7CC46BEDC9C682C927EBA /* ShengHai */,
+			);
+			sourceTree = "<group>";
+		};
+		A302755A8DEDBE796B9545A0742E52D4 /* VoiceConvert */ = {
+			isa = PBXGroup;
+			children = (
+				965BF1D0BFC69A70EA5E45C6CB58BCCF /* EMVoiceConverter.h */,
+				7448829F8F2B314A570F30261E2C1AF4 /* EMVoiceConverter.mm */,
+			);
+			path = VoiceConvert;
+			sourceTree = "<group>";
+		};
+		AC2157E72F00B90E30319B1AA15B321B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1941E53B5C0416DB1ED455429C8DE944 /* DKGradeViewModel.h */,
+				C50FE3BDC7FFC75CC56B160AB3FE0558 /* DKGradeViewModel.m */,
+				888F5E081AAA2D655516546F52589E3F /* DKNoticeViewModel.h */,
+				1A6019493EBA509F41F5EF95407F729D /* DKNoticeViewModel.m */,
+				57008FC86B906EA4B6669CE7C947E1AC /* DKProfileHelpViewModel.h */,
+				C718366A7F4FC824757D861982C52671 /* DKProfileHelpViewModel.m */,
+				B7E16CA2B3016DD807173C74AB5C67D0 /* DKProfileUserInfoViewModel.h */,
+				66688A624AA6500B299CE667F6992C6B /* DKProfileUserInfoViewModel.m */,
+				60A2F6BE62DB956BF7F326CD67A99910 /* DKProfileViewModel.h */,
+				2954BA90B4F058E14C6558E8889EE534 /* DKProfileViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B0AECC79683047A2B67F33CA40021B18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				189D37F21819119782EFC5E3D6172B9B /* DKRefreshFooter.h */,
+				171063BEE044C7C26F14FF251B12F8F7 /* DKRefreshFooter.m */,
+				208197C757ABAD56EB0408C04C4511A3 /* DKRefreshHeader.h */,
+				7010B61B9598717BBDE15E17FA83DFA6 /* DKRefreshHeader.m */,
+				EE168816179EEA59947F7FBC856D893B /* DKTableNoDataView.h */,
+				5256279CDB9BB67071EC9017773288B8 /* DKTableNoDataView.m */,
+				7E3C54D0B3EC9691C76DCEF2E7E31943 /* DKTableNoDataView.xib */,
+				EB421AE74B4B2A99956BA2DFA6D397AE /* DKView.h */,
+				F40ECADDDFC923582C2729F4387DA109 /* DKView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B33A323C825DB04A9EB6496B9CA7C479 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FD808A1FD45E6602CB1147198DAFDA71 /* DKViewModel.h */,
+				E79CE404A33E05E144A77FDB981EED2C /* DKViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B410755A98258C19C6EB21B0F3662D0D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DC7D1AFEE4CCD0BBFD899E0BC6812A59 /* DKUserLoginRegisterViewModel.h */,
+				661843984362563DFD95381D0848D713 /* DKUserLoginRegisterViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BD463EE3A373217C4650BCECE92DDFAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1161897DB3FAC31F39770602BFC51AD /* DKBadgeView.h */,
+				8D04938C611DAF7F0D638967A41EE49D /* DKBadgeView.m */,
+				D329F1B9A95CA16C9A8C9479F676AC4C /* DKTabBar.h */,
+				D7F18B9C7CFEAC9CDAA561EAE0CE45DD /* DKTabBar.m */,
+				2DB45DADB21F6AFCFA0D7BD1130359F8 /* DKTabBarButton.h */,
+				10620DE2B02CB7EC866E52BD49E35B23 /* DKTabBarButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C039B66F661500A43AD2ED6D3A44797E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C9217CF6BD33CBBB169C6FAB59287B62 /* DKNavigationController.h */,
+				FADC84FA41CC3031F4E0BDC0A4C51B1B /* DKNavigationController.m */,
+				19D27D1146FADDD11ADAC9CF883FB04D /* DKTabBarController.h */,
+				31631DCC983D2637249EBA7C81E8204F /* DKTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C926AAB5451DE0E12EB7DA4F85A008DF /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				16DABF6AED4A19126978DEF1DBF548C8 /* DKProfileAdressBookDetailViewController.h */,
+				4C16C3BCFDAA55C33011069743610A38 /* DKProfileAdressBookDetailViewController.m */,
+				2FBD80F5F358E3BBCC38E3DBEEDE2D68 /* DKSearchContactViewController.h */,
+				40F6EE672F021640ABB99A742B127FB9 /* DKSearchContactViewController.m */,
+				8F901EC897E1670FFE6EA0B09F365552 /* DKSearchContactViewController.xib */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		CCCDF331D8E66D36410294BF6B966884 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				699589DBD2CABE8FCCA0214D747BD176 /* Controller */,
+				7F808CCF80A19634030123B5615249CE /* Model */,
+				3682916808EF3FAD00434EED90181EDC /* Service */,
+				E8B42BDED22AB68452F9C320A194A04E /* View */,
+				AC2157E72F00B90E30319B1AA15B321B /* ViewModel */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D18B58E0E31ED18FDE33A3C834BB0D58 /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				4137DD3C410FD826045D660F9369C820 /* interf_dec.h */,
+				70AFC1D4671583647B143B568F304A73 /* interf_enc.h */,
+				CC23ABC4C32C62A8FA36286ACFD0E79F /* libopencore-amrnb.a */,
+			);
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		D6CFE4F49D1769893580A50435F7D353 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D691D34D8B8F9A2FDC5ED8A3AB80982 /* DKOrder.h */,
+				3E9650448861444EE57967B44E192F64 /* DKOrder.m */,
+				C3C151FECE1D1F60EE4F36B86C8C3855 /* DKOrderList.h */,
+				68D984D994E9F0EFD5682CAB1B6C9CCE /* DKOrderList.m */,
+				FE600F549A18EB65EFD2B1F66D7666C5 /* DKOrderRecord.h */,
+				694ABB19F6EF2CCDC2AC8B6040B2FE95 /* DKOrderRecord.m */,
+				A61B582B67A2357D67E05CE430F47F3C /* DKOrderRemindCount.h */,
+				C562B311B1E46EE78F053A80591A7DCA /* DKOrderRemindCount.m */,
+				C60F0C89FD6F97E9291517AA0B972BE5 /* DKOrderStaff.h */,
+				C2F9C546CD796C1A0C1C8B366CABF936 /* DKOrderStaff.m */,
+				08C12761623F280A72B8903B2EBF0979 /* DKOrderWikiFirst.h */,
+				EE95B2ECB85A40158E09966EF1E842FF /* DKOrderWikiFirst.m */,
+				1BD0284E1EC9D7FD49DF9F16592D6BCB /* DKOrderWikiSecond.h */,
+				C50AC62E247AA10F0323FECCAFAEA34E /* DKOrderWikiSecond.m */,
+				150CFCA5874167214B9F8C961F3F467D /* DKOrderWikiThird.h */,
+				7BC07D2C0F2AA4C4F583C40FEA7D3E4B /* DKOrderWikiThird.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D901CC71E88AA20A7F2858B896E52CD4 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				6196BB5F83DC683F674CC8C23CA96CA0 /* ALCalendarPicker */,
+				66F3AA0E5DF57EA3EADE394F24E57FCE /* DKExtension */,
+				3F9C3B5B2C3997AB7696D3A8DF50F69B /* DKFeatureViewPage */,
+				555038CCED7FF9D4D3F5E3CF1155B36C /* DKHttpTool */,
+				589F0F05CBE2A955DFB865CA8F75AAAF /* DKMenuTableViewController */,
+				38855CC2B615B2114ED8AE98CE465E32 /* DKUncaughtException */,
+				9E526708AB529A0D113A0CF16CF00C4D /* MJPhotoBrowser */,
+				E14B08E94B31C2F12F7913CD701241A1 /* VoiceConvert */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		DDA084079CC8B4173E723BB17E0071BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3639DB16E77173969328525CF1646AA /* CompleteOrder */,
+				B921CF63935B71FFC868B41C2D55139C /* DKFaultDescriptionView.h */,
+				66E4486860A61460C45891E16CABD072 /* DKFaultDescriptionView.m */,
+				65ACB0A0DB4C3C8DA110844149FEB00E /* DKFaultDescriptionView.xib */,
+				4B51314AF93FD188883C9E65C8F4E844 /* DKMaintenanceRecordCell.h */,
+				00FFA1B3C6B54C3DB55C0E39B84AB58F /* DKMaintenanceRecordCell.m */,
+				3B26DA92D75005C1D4A34B1EEE8D7B9F /* DKMaintenanceRecordCell.xib */,
+				7EBD66BF37F4154DE6DB28438F875FE7 /* DKMaintenanceRecordView.h */,
+				4725B5BDCDAF7BFA8D9906E0AE926118 /* DKMaintenanceRecordView.m */,
+				EA864EDF375F5EB56276300987FB0DF2 /* DKMaintenanceRecordView.xib */,
+				4EDBC74A3C166AF0ED3728F27D05240C /* DKOrderBaseView.h */,
+				4A1C1EC0A1EC58C51268508C95E5DA4A /* DKOrderBaseView.m */,
+				CDAD179F65D8DB9D866A04A343154915 /* DKOrderCell.h */,
+				085553A4B51D86A7FA4446A3B650BFFE /* DKOrderCell.m */,
+				6AC93FFC00DBD8EBD3286B20840D2E74 /* DKOrderCell.xib */,
+				07C3D3E9A30A3F0B9D7774913B5FFEB6 /* DKOrderContinueDealBarView.h */,
+				B796842B67AD62BA58A07B01E26EC254 /* DKOrderContinueDealBarView.m */,
+				273656BF12420209224795E1CF41E590 /* DKOrderContinueDealBarView.xib */,
+				A515D7AF92F46E0B0809E1AF2AAA70ED /* DKOrderDealBarView.h */,
+				369B09AA94B84E8C0716D9435AE4BD08 /* DKOrderDealBarView.m */,
+				7864CB48798DB87AE72E6C562DE48997 /* DKOrderDealBarView.xib */,
+				779530431166E7BBA148D5750CC2CC77 /* DKOrderEngineerView.h */,
+				1028DD30E4893FF1225802EC8249966D /* DKOrderEngineerView.m */,
+				24F8419E199CDB35C1C5491BB59FF7B6 /* DKOrderEngineerView.xib */,
+				C52D1CEFF817E591050866D099350EBD /* DKOrderRemindCountView.h */,
+				6CBE4B0CE74C504185A61A518CE0DEA4 /* DKOrderRemindCountView.m */,
+				92733D7440E1099205D1DE2365F1CE7A /* DKOrderRemindCountView.xib */,
+				5C8FFE88458BFF7A0B0CC167AB079373 /* DKOrderStateView.h */,
+				7F3816ED734DF21914617E4D064B567C /* DKOrderStateView.m */,
+				12F2E59918D004246D7AA16D15D89F0F /* DKOrderStateView.xib */,
+				B7A5E4AE51D1EBB03008738DC08F558B /* DKOrderTurnStaffCell.h */,
+				557334A27CADBD544806BAEDF515247A /* DKOrderTurnStaffCell.m */,
+				BB83F0E547597F2443DFA17E4CE839F8 /* DKOrderTurnStaffCell.xib */,
+				E62655C68E9FA71BAF45907BC625B5C0 /* DKOrderUserInfoView.h */,
+				80E2BE7149FF003CFE54243606CC98FB /* DKOrderUserInfoView.m */,
+				00292BA30BDF84BE54393ABBDA5C903C /* DKOrderUserInfoView.xib */,
+				6460259FD32444BA0FB4723BC5B8F0BE /* DKOrderWaitBarView.h */,
+				221DC18D1B199E2648C250A1281B880A /* DKOrderWaitBarView.m */,
+				728437649B6CF2BCB840A3A41042AEA5 /* DKOrderWaitBarView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E13EEACF897530CB0A1C07F5A5C7A4F6 /* CompleteOrder */ = {
+			isa = PBXGroup;
+			children = (
+				1B2F721159B4ACE56DF7DC1F02000FC6 /* DKCompleteOrderViewController.h */,
+				F915EDBB0BD10EA71108019622FC76FD /* DKCompleteOrderViewController.m */,
+				5526E3BDD825AA033A8FAF9DAC448944 /* DKCompleteOrderViewController.xib */,
+				020F95356923E0D74E5BDE99753CAF83 /* DKDealEventViewController.h */,
+				D82CFB5896508A0475CB0CA0B72DE665 /* DKDealEventViewController.m */,
+				561C1DDDED97D40D0010B77698C6DE22 /* DKDealWayViewController.h */,
+				02161C339252A3CD21240E3E062A07BC /* DKDealWayViewController.m */,
+				E4F4A8C65044E015E80D41CDA2107DC2 /* DKDealWayWikiViewController.h */,
+				1AA181B8F6F2E115976ED240E51C1E92 /* DKDealWayWikiViewController.m */,
+				0122FF0846E0931D89236384B81BCC00 /* DKDealWayWikiViewController.xib */,
+				8D04983F0B689BD8BBF33419800F96C8 /* DKProblemTypeSecondViewController.h */,
+				9ED6FFDE814AC9EBAA30CF159E1E38E8 /* DKProblemTypeSecondViewController.m */,
+				DFBD8631072AE7250166999987C6755E /* DKProblemTypeThirdViewController.h */,
+				55F538DF529935572054120C01F390FA /* DKProblemTypeThirdViewController.m */,
+				B47F68FF9F88701E40A6FBD2EC6FB4EE /* DKProblemTypeViewController.h */,
+				C093D252A1700D24F8E64617DCA44328 /* DKProblemTypeViewController.m */,
+			);
+			path = CompleteOrder;
+			sourceTree = "<group>";
+		};
+		E14B08E94B31C2F12F7913CD701241A1 /* VoiceConvert */ = {
+			isa = PBXGroup;
+			children = (
+				A302755A8DEDBE796B9545A0742E52D4 /* VoiceConvert */,
+				98F99F6DB424B60CFC33669BAA7FC7E5 /* amrwapper */,
+				D18B58E0E31ED18FDE33A3C834BB0D58 /* opencore-amrnb */,
+				45C7C4E678F589E2EB561947EFE820E5 /* opencore-amrwb */,
+			);
+			path = VoiceConvert;
+			sourceTree = "<group>";
+		};
+		E2826CE28E12579A53DABC879F8A2DDC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				920956D40D78BB5D583CC4456F4FF090 /* DKOrderService.h */,
+				AF2DF0F93A9244D75AE88FE01CB4ADD2 /* DKOrderService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E3639DB16E77173969328525CF1646AA /* CompleteOrder */ = {
+			isa = PBXGroup;
+			children = (
+				00F837507FA965F28FDC9EA25FD8B320 /* DKDealWayCell.h */,
+				C4C8503876C839148E3C144A9AE967CB /* DKDealWayCell.m */,
+				E654FC267EF99A5A82440B109D02832B /* DKDealWayCell.xib */,
+				533CDF19469A85C10CF18AED06FE5510 /* DKProblemTypeCell.h */,
+				3C713F5A958F97F6FD5226C383F8DFF5 /* DKProblemTypeCell.m */,
+				6AAB0D2AF5FC6F4BFC8558BF60D97FBC /* DKProblemTypeCell.xib */,
+			);
+			path = CompleteOrder;
+			sourceTree = "<group>";
+		};
+		E54AEF54513F30A348F5906039588BB2 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				85E44E0EC073F58DABCC7D2C6A9DBEAA /* DKHelpProblemViewController.h */,
+				D083B695B3B8B1D5C5A20CC55713684A /* DKHelpProblemViewController.m */,
+				07027FCAB5E9E22CDE5B8271C66744C3 /* DKProfileHelpContactViewController.h */,
+				0E114FC961E4CD681754B7983436E6C5 /* DKProfileHelpContactViewController.m */,
+				F8F38736A5CFAE2215ED8E7ABAA06AB5 /* DKProfileHelpContactViewController.xib */,
+				19C5DC331D3FB6BDB58A3B8526E7431A /* DKProfileHelpProblemsViewController.h */,
+				CF669280A0BEEF2FDF65E828943A6A57 /* DKProfileHelpProblemsViewController.m */,
+				FAB28E3D375879713800F930C9F51F53 /* DKProfileHelpRulesViewController.h */,
+				4A60542D468DE43EF270A00E9178CE26 /* DKProfileHelpRulesViewController.m */,
+				CD035008338A37958B1AD556617C78AD /* DKQrcodeViewController.h */,
+				00A3197048EE7A8D4006C6699F06112C /* DKQrcodeViewController.m */,
+				7054F351122B442BB6EC029A70BE6264 /* DKQrcodeViewController.xib */,
+				4D0459E15DA2E4A02A217BD8B3F5EC26 /* DKSettingAboutViewController.h */,
+				229508DF19F54A66B6AF94A28A179CE6 /* DKSettingAboutViewController.m */,
+				CCD5564161B0B86803305D8DD7EA69E2 /* DKSettingAboutViewController.xib */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		E8B42BDED22AB68452F9C320A194A04E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				130B2837F3B69F1BA7D34F3B8C339841 /* DKNoticeBarButtonItemView.h */,
+				C64A6D35B5DF26032CFD36BB5136FB98 /* DKNoticeBarButtonItemView.m */,
+				B8F6ABE997EC08B04FA9CFDA38FE7F93 /* DKNoticeBarButtonItemView.xib */,
+				269E5104BEB986E226A437476EDF1DCA /* DKProfileAddressBookCell.h */,
+				6A7D500D8F7ADE0214A5D695A1E4EFAF /* DKProfileAddressBookCell.m */,
+				EF91D6ABF931EC1472BDF9A7F5FC0BD0 /* DKProfileAddressBookCell.xib */,
+				76275C06EBFD3DCFECC46755DAB71E1E /* DKProfileAddressBookDetailCell.h */,
+				09D76F1B79ECD03259CD410404F79868 /* DKProfileAddressBookDetailCell.m */,
+				E0F8CD74F9B7DA68D522FB0BE03F14FE /* DKProfileAddressBookDetailCell.xib */,
+				4223A0BED11BA1A121B67B52167E9008 /* DKProfileCell.h */,
+				A38616C5FAB2A9DCE5467AA6FF274C10 /* DKProfileCell.m */,
+				80A5F6C8AC3F16416C4ACED4902C2D03 /* DKProfileCell.xib */,
+				36D06C80A37D66BECA3B3D7CE9442F7B /* DKProfileEvaluateView.h */,
+				37FC4241F72E6EA254EFA466C76A9688 /* DKProfileEvaluateView.m */,
+				49E02D662850DBFD6152EE7DDE98B9E6 /* DKProfileEvaluateView.xib */,
+				765E489FBFAFE0598DE4F20C2BFB889F /* DKProfileGradeCell.h */,
+				9E55ADC077554923F56E42C61CF65B74 /* DKProfileGradeCell.m */,
+				937582E56336ED9EC78C976A31FB5C26 /* DKProfileGradeCell.xib */,
+				DE4458EBCB314CD92759720C29DAB7FB /* DKProfileHelpCell.h */,
+				9412564C70A8807C61FC51460ADA1046 /* DKProfileHelpCell.m */,
+				E3E3A6D710150C7894CCAC7A29249E4B /* DKProfileHelpCell.xib */,
+				E026DC33F4F2C4FF872A2AC99B44E89A /* DKProfileNotificationCell.h */,
+				40328401F16982A84283ECA74F44FD0B /* DKProfileNotificationCell.m */,
+				CB97F7380570A304024743920BB65202 /* DKProfileNotificationCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE62334A36E3E0742C84AB4E0936676C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				05E1D061C4A5A2A2FBE829890F53DAFC /* DKScheduleViewModel.h */,
+				C21C7DD5FF7E6A166787730A66FB44E5 /* DKScheduleViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FE27AD15674CBDC215E6E665A6742A6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F48D851EA18198842042A5CCAB89F31E /* ShengHai.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEFB2B425C246205F318D79765503F4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB2F989B0F75E1E692BEDEE17E86C8D1 /* Pods-ShengHai.adhoc.xcconfig */,
+				F51F7461B3DE66AA6BD4CEEDD59819FC /* Pods-ShengHai.debug.xcconfig */,
+				8CA370D2E3EDC84E55F1C998C9379CED /* Pods-ShengHai.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31DBD90F20C270EA7B3340A205C98A3E /* ShengHai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98E5F25974314CCD565A6D62F9C50689 /* Build configuration list for PBXNativeTarget "ShengHai" */;
+			buildPhases = (
+				DD7603AC719D98762F6E122FB74C77B8 /* [CP] Check Pods Manifest.lock */,
+				C506CF13C84674218F9F72DB19D38735 /* Sources */,
+				6EA81AC05354339FFFD2966BA29326D7 /* Frameworks */,
+				B944A9E95B4B59E9F07938BABEE4107A /* Resources */,
+				D40D437A0107ED66B23A7019EAA39589 /* [CP] Embed Pods Frameworks */,
+				C8D494DD1FA70503BCA1DAADCA4E7C21 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShengHai;
+			productName = ShengHai;
+			productReference = F48D851EA18198842042A5CCAB89F31E /* ShengHai.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89ECE679531E205A60FF1CC570B5B482 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DK;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = cn.dankal;
+				TargetAttributes = {
+					31DBD90F20C270EA7B3340A205C98A3E = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = G8M2K7562P;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7749AC2B6C5DC5C626F2F0144C2DC0B1 /* Build configuration list for PBXProject "ShengHai" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A277FEA36D74572BD1782987E75E9871;
+			productRefGroup = FE27AD15674CBDC215E6E665A6742A6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31DBD90F20C270EA7B3340A205C98A3E /* ShengHai */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B944A9E95B4B59E9F07938BABEE4107A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D9022669C466A3E73F1586E700BA4D /* ALCalendarPicker.bundle in Resources */,
+				695564B843DF30971D677D832015AE15 /* Assets.xcassets in Resources */,
+				45241DF1E22DDCCBC96E71F14CE10DE8 /* DKAccemptOrderViewController.xib in Resources */,
+				A912A6DD3434422450350423F6CE484B /* DKCancleOrderViewController.xib in Resources */,
+				716DA20C630A49DD5369AE769EB5193E /* DKCompleteOrderViewController.xib in Resources */,
+				B6B36AA00C717384A1AD88A81246F259 /* DKDealWayCell.xib in Resources */,
+				79895E28DB07123BDDC0D23EB9EBA1BA /* DKDealWayWikiViewController.xib in Resources */,
+				E14AA1BF338C532E679B9726CB3E6748 /* DKFaultDescriptionView.xib in Resources */,
+				BABC5E86D5ECA12F1D35DADBA1DAB6E9 /* DKMaintenanceRecordCell.xib in Resources */,
+				50875A76F890A1EF0FB1A431B9A72CCF /* DKMaintenanceRecordView.xib in Resources */,
+				0DCBB442EA497FE0A5F2CB470BA47E3D /* DKNoticeBarButtonItemView.xib in Resources */,
+				1CCD620C764DC44B39C7ED524A23F3B4 /* DKOrderCell.xib in Resources */,
+				97278DC90C7BA4D1C717A71E5E4131D9 /* DKOrderContinueDealBarView.xib in Resources */,
+				95221AAA9B783A0E6A49ED9703790291 /* DKOrderDealBarView.xib in Resources */,
+				79BE379259EA5B6F63EBD719D7C1AC39 /* DKOrderDetailViewController.xib in Resources */,
+				AB8CB949E2098C3145AEB3989E9AC93D /* DKOrderEngineerView.xib in Resources */,
+				8BF1BA27239894425C0F54F1B9F4D3BA /* DKOrderRemindCountView.xib in Resources */,
+				34A1310DDF2227A44CA7D17DB198F1C9 /* DKOrderStateView.xib in Resources */,
+				BC2825BB3351EE166C4F652A51BE3C73 /* DKOrderTurnStaffCell.xib in Resources */,
+				1BB8E8D3548067270D2AAE02BA6608BA /* DKOrderUserInfoView.xib in Resources */,
+				D66326A626264B47F78186276F04CF45 /* DKOrderWaitBarView.xib in Resources */,
+				38592762CD95311CDC32BD902A2BAC50 /* DKPauseOrderViewController.xib in Resources */,
+				3ED87E105A3AEF8A8129602CB68C4BE2 /* DKProblemTypeCell.xib in Resources */,
+				60A9A3CFB8E92A92A6B724148AD4F239 /* DKProfileAddressBookCell.xib in Resources */,
+				BFF89F1C38EF9F2FD8ED1D3A632D7A6A /* DKProfileAddressBookDetailCell.xib in Resources */,
+				6BDA2B99A595821D39979B7C00B2895C /* DKProfileCell.xib in Resources */,
+				DBBB92D21BA7C192974BB8842CA3B8C4 /* DKProfileEvaluateView.xib in Resources */,
+				2157DB6C942D1B8605F13D91D362AB36 /* DKProfileFeedbackViewController.xib in Resources */,
+				62719EA7696283700B1C822ED6F5D710 /* DKProfileGradeCell.xib in Resources */,
+				190B7B0BF68C9EBE3D154D68C4E4589B /* DKProfileGradeDetailViewController.xib in Resources */,
+				0EE736BDB7E85682C79AA476BBC0C936 /* DKProfileGradeViewController.xib in Resources */,
+				0AA4088BC7871BE9F1C752E8FFBC4B3F /* DKProfileHelpCell.xib in Resources */,
+				B586353F997DE2CBD3E92EC4D97D2952 /* DKProfileHelpContactViewController.xib in Resources */,
+				CF19D16B6242C5C21CFF256D8CEEA628 /* DKProfileKnowledgeViewController.xib in Resources */,
+				F3E43DFB789EBDF17EEC9E6878A9F8A6 /* DKProfileNotificationCell.xib in Resources */,
+				3718A6ECAB29C24B2C2C1E640DFBB109 /* DKProfileShareKnowledgeViewController.xib in Resources */,
+				DF0FC0FC16A3ABE956ECC93876DC4A65 /* DKProfileSuccessAlertViewController.xib in Resources */,
+				AE543F38EA4B17156AF51072D8011A89 /* DKProfileUserInfoViewController.xib in Resources */,
+				C3652BD949FD7BD5F8A12B9C0BE5C584 /* DKProfileViewController.xib in Resources */,
+				4C6AB470918784631753F40AB36A9995 /* DKProfileWorkAlertViewController.xib in Resources */,
+				BA1A6B41851D2538B5B50D1A2C1B774D /* DKQrcodeViewController.xib in Resources */,
+				222910815AF937042F0A95D40C8EDA3B /* DKScheduleCell.xib in Resources */,
+				8B747FFA5A9C4971E992D87337624066 /* DKScheduleEmptyViewController.xib in Resources */,
+				42949236F7445E508EFB31826664B319 /* DKScheduleIndicatorView.xib in Resources */,
+				1593F33ADFECAC9A9626F5E2ED37DAD1 /* DKSearchContactViewController.xib in Resources */,
+				6AED9C7B26E9474421F3F880AE7F1874 /* DKSettingAboutViewController.xib in Resources */,
+				49FA862CE78D6DB71A72D863CB01EA39 /* DKTableNoDataView.xib in Resources */,
+				9B008E7C1AB1EA747749AAD516579050 /* DKUserChangePhoneViewController.xib in Resources */,
+				434F1B5A3F262308CF6FC7DBDA26542B /* DKUserForgetViewController.xib in Resources */,
+				9BEB5E8066E6DAD6D244EFD0CFF2A799 /* DKUserLoginViewController.xib in Resources */,
+				4F0A07F44157042CAA80C3C388A0D999 /* DKUserSetPasswordViewController.xib in Resources */,
+				EA676D2D0A2C15BFEA4F6BDA41E344EE /* LaunchScreen.storyboard in Resources */,
+				FE2E8A0C06AD27B730CAA04AC3B6A6A1 /* MJPhotoBrowser.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C8D494DD1FA70503BCA1DAADCA4E7C21 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShengHai/Pods-ShengHai-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MBProgressHUD+DK/DKProgressHUD/DKProgressHUD.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShengHai/Pods-ShengHai-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D40D437A0107ED66B23A7019EAA39589 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShengHai/Pods-ShengHai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD7603AC719D98762F6E122FB74C77B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShengHai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C506CF13C84674218F9F72DB19D38735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF984E0000823FA98A98372DC58C0C25 /* ALAssetsLibrary+DKExtension.m in Sources */,
+				609374BF0ABA374EDF90C2AA8373BE36 /* ALCalendarCell.m in Sources */,
+				3A84ABEEEF05197AD69C05CC8032B49F /* ALCalendarCollectionView.m in Sources */,
+				B545620AB7F0E2559D43856414EE40F6 /* ALCalendarConfig.m in Sources */,
+				102C70A6EE1933290BFC7547C0599420 /* ALCalendarDate.m in Sources */,
+				53BEE9FE87A80D067AEE0AF14FE1BFFD /* ALCalendarHeader.m in Sources */,
+				09875B93B9B18C2AEFA0E40A275BF300 /* ALCalendarHelper.m in Sources */,
+				05F375E7B894D0319175D7E1DF707758 /* ALCalendarPicker.m in Sources */,
+				DC816E2AC44B31F01F58D4F3144B1EFA /* AppDelegate.m in Sources */,
+				A44D8DA40C437D7B6240027BEA6625B0 /* DKAccemptOrderViewController.m in Sources */,
+				7BE36DCF2595D2B92DD5C6B66C3BAE8E /* DKApplicationManager.m in Sources */,
+				7609FF60463052CC3F9B7B7A412CDF45 /* DKApplicationService.m in Sources */,
+				759FE704E3F415FAFD04043BF02D1609 /* DKBadgeView.m in Sources */,
+				0FAF3B8E53876A71DB040C67E64000B6 /* DKCacheManager.m in Sources */,
+				C4D8DE673C4816A78967BCB7B55B9EC0 /* DKCancleOrderViewController.m in Sources */,
+				3337FE0DAD8752CA77C414C031C026B1 /* DKCompleteOrderViewController.m in Sources */,
+				ADD18D906A2BCF51AFD9D79845AAEB84 /* DKConst.m in Sources */,
+				C3D7A108BADC23A19B5D0B0E0687CDEF /* DKContactArea.m in Sources */,
+				4A2065E112297CB3071E315D78FA9E47 /* DKContactInformation.m in Sources */,
+				714EFFB86D168DC194A530E67BCFA14B /* DKDayCalendar.m in Sources */,
+				85DCCA96FC033FCD26ECC4769214D738 /* DKDealEventViewController.m in Sources */,
+				493D45EE4B293CF0F86C762BD0B3BBFE /* DKDealWayCell.m in Sources */,
+				1FFDFB49A76DDB98E18673DF09A3C278 /* DKDealWayViewController.m in Sources */,
+				3B36235244759705FE2159A330646C07 /* DKDealWayWikiViewController.m in Sources */,
+				03709021D7C307E567C07B64B1F849F9 /* DKExtensionConfig.m in Sources */,
+				46D60A13F9BEC7B367389E6388477339 /* DKFaultDescriptionView.m in Sources */,
+				97D9956ABE5802EE2FF35927F37C7AA4 /* DKGradeViewModel.m in Sources */,
+				80E047C01DFA13AEA18EED7E29E10F66 /* DKHTTPTool.m in Sources */,
+				FAB90F0BE892B41CD15179C297A13816 /* DKHelpProblemViewController.m in Sources */,
+				A8754277AB29372E1DE6CF5B64EB29D7 /* DKHttpResponse.m in Sources */,
+				94CAFDEE8DE4F7B2D9694F1884B336EC /* DKMaintenanceRecordCell.m in Sources */,
+				8E7B87A5497184B129638DF69913F0B8 /* DKMaintenanceRecordView.m in Sources */,
+				6F07E3A427FD2B9AD451C25756494A11 /* DKMenuTableViewController.m in Sources */,
+				69D11C5AAAD836BBED7360D90DE307DE /* DKMonthCalendar.m in Sources */,
+				15BE8D5F24C9945843C05D4348C0734B /* DKNavigationController.m in Sources */,
+				90035DE7B6FE8CB7BEAC79D6AD71B3F7 /* DKNotice.m in Sources */,
+				6381632F7BEA12FDDC2F8D3735DE805D /* DKNoticeBarButtonItemView.m in Sources */,
+				89A4FCB424DAE256F6A36A23ACEB36E5 /* DKNoticeViewModel.m in Sources */,
+				0E1B8C42F471CA747DE92E33A07FFF25 /* DKOrder.m in Sources */,
+				AFA2AF72657675DECDAED96D6E6E9E59 /* DKOrderBaseView.m in Sources */,
+				12C5A18545DFB49FACE91319AA49A265 /* DKOrderCell.m in Sources */,
+				FC04EF8F34125499B46DD7B263588ED8 /* DKOrderContinueDealBarView.m in Sources */,
+				33F7264F30CA2ABEF53CB3EFCBE6F557 /* DKOrderDealBarView.m in Sources */,
+				11C53B99824D0B4DD25A8E4DA26B0ADD /* DKOrderDetailViewController.m in Sources */,
+				ED8389300747965DAD803BA08DE1F480 /* DKOrderDetailViewModel.m in Sources */,
+				D4C9C3BD652622E690813928219B9A32 /* DKOrderEngineerView.m in Sources */,
+				A6D3B008F664EBA50B09DC5FAB7C3CC7 /* DKOrderList.m in Sources */,
+				8AAFF602AEFEBF9776D8F33E0A3200EC /* DKOrderListViewController.m in Sources */,
+				0847ED5CAFF52B9DA9D4C8779CD30758 /* DKOrderNumber.m in Sources */,
+				3FEEBB329CB5DFFFA9ADB19EAAE6B955 /* DKOrderRecord.m in Sources */,
+				F8E937EF1E675E49A93400709384F9CE /* DKOrderRemindCount.m in Sources */,
+				D5D5236498DC9EF3B8214FCD169B2CE9 /* DKOrderRemindCountView.m in Sources */,
+				E149EB9727E966A912EC8953B0E6AC2F /* DKOrderService.m in Sources */,
+				507E0EE32668F5BC50406D7C02E635D1 /* DKOrderStaff.m in Sources */,
+				A12ACB6C166BC81998D9CF7B981C419E /* DKOrderStateView.m in Sources */,
+				A7FE86EDCEF64EFA031F41A6929F5345 /* DKOrderTurnStaffCell.m in Sources */,
+				07D20CADC42E977A3C3456A0B7F21780 /* DKOrderTurnStaffViewController.m in Sources */,
+				1E411D554C0014C8B0B42282208128F7 /* DKOrderUserInfoView.m in Sources */,
+				CB51B521F756040B51B65BC2F2E3DDA8 /* DKOrderViewController.m in Sources */,
+				3EC55D2A42F9655CD0B126AF160B66F9 /* DKOrderViewModel.m in Sources */,
+				50B43869CB00A0DC1E0D798CBBD70FD0 /* DKOrderWaitBarView.m in Sources */,
+				EC06A6C43DF7FE59B6692B4D1A4AC011 /* DKOrderWikiFirst.m in Sources */,
+				ABD5AE048914C3D915D26A908E6747ED /* DKOrderWikiSecond.m in Sources */,
+				6DACD27BC5D8A929D32D542246AEA3F2 /* DKOrderWikiThird.m in Sources */,
+				419C5CAD7C46E4CA58343FAD8BD3B81D /* DKPauseOrderViewController.m in Sources */,
+				BC3602AC44B2107E73578928347E42DD /* DKProblemTypeCell.m in Sources */,
+				4AE9CC0C62AA3B8F5CE18BEB7ABFD053 /* DKProblemTypeSecondViewController.m in Sources */,
+				AA42970579C12CDA86CE76660C0B30EF /* DKProblemTypeThirdViewController.m in Sources */,
+				DA910A036957A5D52557912428765BE7 /* DKProblemTypeViewController.m in Sources */,
+				4F067633BD294ACEC2C6CFD8265569B6 /* DKProfileAddressBookCell.m in Sources */,
+				E37781B881CF8E9518ADDEEC9411A3C0 /* DKProfileAddressBookDetailCell.m in Sources */,
+				7CCFD042414B0974042F1C5B10C89D95 /* DKProfileAddressBookViewController.m in Sources */,
+				C866B3AB99BB9530D0467784D5EC49E5 /* DKProfileAdressBookDetailViewController.m in Sources */,
+				5C9C99A8E0091BED0D06D8EE002AAC51 /* DKProfileCell.m in Sources */,
+				FFDD462BB5CC8AE4FF9953E47C927804 /* DKProfileEvaluateView.m in Sources */,
+				710D36EC549F53486BB50D75D6C1801A /* DKProfileFeedbackViewController.m in Sources */,
+				AB44B1E9D68FA123610F6618B72826A0 /* DKProfileGradeCell.m in Sources */,
+				0D47B35FD09199ADE09155F92720DA76 /* DKProfileGradeDetailViewController.m in Sources */,
+				7D2948BB50B0B04D6479E71431B0A125 /* DKProfileGradeListViewController.m in Sources */,
+				E2C6CF0CD939D069C68E477059315A98 /* DKProfileGradeViewController.m in Sources */,
+				1C100AD878A8E4B994DB886BD830261E /* DKProfileHelpCell.m in Sources */,
+				615660EE48FADDDA43C4B5468053FE88 /* DKProfileHelpContactViewController.m in Sources */,
+				51DCDFA304F83AAA51F938F011C524CB /* DKProfileHelpProblemsViewController.m in Sources */,
+				82F269E7314EB89519B365FDCB15E183 /* DKProfileHelpRulesViewController.m in Sources */,
+				4BD2153E5AA7DCCD52552EF026913A68 /* DKProfileHelpViewController.m in Sources */,
+				776840ECE397F47FD276B9323D9579DC /* DKProfileHelpViewModel.m in Sources */,
+				0D394BC9404A6E593C8EBC915C7678BB /* DKProfileKnowledgeViewController.m in Sources */,
+				42EA41E3C66DC522AAE2BBD877C6D0A2 /* DKProfileNotificationCell.m in Sources */,
+				43C9BAE13E785FAFB1C8D881A99C7388 /* DKProfileNotificationViewController.m in Sources */,
+				C5B54C8A550694D82F29D69ED64E54E9 /* DKProfileService.m in Sources */,
+				AEAB7769204F296DE88DBCCFFB930661 /* DKProfileShareKnowledgeViewController.m in Sources */,
+				2674B3F89283B158B0EC7C5D9C8FFB73 /* DKProfileStarInfo.m in Sources */,
+				E1DE7C700AF997219BF00912BCB6B40C /* DKProfileSuccessAlertViewController.m in Sources */,
+				5BEBB9FDD7F8A20A67E1E8F1923FF5D3 /* DKProfileUserInfoViewController.m in Sources */,
+				28232C0592337CE50942DFEF6E797390 /* DKProfileUserInfoViewModel.m in Sources */,
+				57C079DD292AD52BEBE600AF7E99BB90 /* DKProfileViewController.m in Sources */,
+				4646D76717EA75A2C770098D8BE35861 /* DKProfileViewModel.m in Sources */,
+				22EA30DAAFCF5232D6EA471D727FBE40 /* DKProfileWorkAlertViewController.m in Sources */,
+				BB83345E4F64536EC6BCF68E48CD39E5 /* DKQiNiuConfigInfo.m in Sources */,
+				030396A4511319F5B65D70A6907C5736 /* DKQiNiuManager.m in Sources */,
+				AC2BC376B0A719CFE2647C2A9E6A1C10 /* DKQrcodeViewController.m in Sources */,
+				9AA9D67181BCB803B58C0F830D448670 /* DKRefreshFooter.m in Sources */,
+				CBAC90C337076FB517546C44203DDCC8 /* DKRefreshHeader.m in Sources */,
+				14D30515F70639D75C28244D175E9E9A /* DKScheduleCell.m in Sources */,
+				ACFCA01C82B202B027D130FF0583B30E /* DKScheduleEmptyViewController.m in Sources */,
+				9F4ACB9714B9178381282B9B3692D090 /* DKScheduleIndicatorView.m in Sources */,
+				9829A2D692008FD7732AD285D1213D04 /* DKScheduleListViewController.m in Sources */,
+				B65DE41ED8E2732E4F9D89E050B77FAE /* DKScheduleParam.m in Sources */,
+				9D463F5E90F9C482954A7201B2D2AE8D /* DKScheduleViewController.m in Sources */,
+				743D07D8C817C9225262176FC18A72A7 /* DKScheduleViewModel.m in Sources */,
+				793F7D75CEF74323FE783E834B92D6A4 /* DKSearchContactViewController.m in Sources */,
+				A69282C15EAD5463732ACD0905657360 /* DKSettingAboutViewController.m in Sources */,
+				BD49E24801BBCBF8F0148C73E8284651 /* DKStaffContacts.m in Sources */,
+				8F515AEA421E41D53648652DD829B32A /* DKStarInfoDetail.m in Sources */,
+				38BBFF4F8785E6336FF4E602658957B0 /* DKTabBar.m in Sources */,
+				AC6BB5285968736E67FD643FB7D33000 /* DKTabBarButton.m in Sources */,
+				286B39E7E3C84851B37C2E65FCE8F3D8 /* DKTabBarController.m in Sources */,
+				6375B0AB3D012FDEED8C7A344EA15D41 /* DKTableNoDataView.m in Sources */,
+				508C105B505F433F1E4A45A312C3D427 /* DKTableViewController.m in Sources */,
+				7B9032E85C49454362BF763B827741F5 /* DKTableViewPageManager.m in Sources */,
+				356F1F6050F1DAA79267667BD7CB491A /* DKUncaughtExceptionHandler.m in Sources */,
+				530E169E668CD8262A063B8C7BF10422 /* DKUserChangePhoneViewController.m in Sources */,
+				44411AAA18AC74128BC1CE2911612128 /* DKUserForgetViewController.m in Sources */,
+				4C0BCBB144EC5A6927AA3564BF5A3AA9 /* DKUserInfo.m in Sources */,
+				2ED97305B3DF9D5765BF89D818AA7FF1 /* DKUserLoginRegisterParams.m in Sources */,
+				262115A2EAEAD1A4DBB723DB9A2FD63E /* DKUserLoginRegisterViewModel.m in Sources */,
+				696198D78DC2FEC395F95200082D4C97 /* DKUserLoginViewController.m in Sources */,
+				D501A06F57070FFCEA806FABC0D3E576 /* DKUserService.m in Sources */,
+				6756F600CD30AC53248C7518DBFCB02B /* DKUserSetPasswordViewController.m in Sources */,
+				F8BFB74BFF9170A4939591578886D002 /* DKView.m in Sources */,
+				9DF4AA51BBA1AE441D1FB41C8A3A9C17 /* DKViewController.m in Sources */,
+				DC1108AB5DF9655E6497578A2C21E78B /* DKViewModel.m in Sources */,
+				EE2D98BFA5DA23693BB5F74F8FF215AE /* DKWebViewController.m in Sources */,
+				2E63D84B9CCC6580D1F438B6BE0BFA50 /* EMVoiceConverter.mm in Sources */,
+				2B5EC4590593D501214887159E5A216A /* MJPhoto.m in Sources */,
+				6C8BB94953C8F78B1A9FCE32BE32DF8B /* MJPhotoBrowser.m in Sources */,
+				535BD987C4BB2E972B9096FE5CBA1295 /* MJPhotoLoadingView.m in Sources */,
+				D5CF75B7184983650A43AE0D690E7B97 /* MJPhotoProgressView.m in Sources */,
+				2BD3B97DD62B4F889CCB18AC9A162DB4 /* MJPhotoToolbar.m in Sources */,
+				10AEE039ECC8A1AEE07ADDCB7F46B685 /* MJPhotoView.m in Sources */,
+				7265A48EA92527CADCF60810B4CA5869 /* NSArray+DKExtension.m in Sources */,
+				08AC4565787A8304D697C9639BF9056E /* NSDate+DKExtension.m in Sources */,
+				F15780C616D42B7F1A3685AB8E416935 /* NSDictionary+DKExtension.m in Sources */,
+				25092F7948BAB20F0082133D88024F63 /* NSObject+DKExtension.m in Sources */,
+				C3A4E1AF509A266BAE0510EB7EC32167 /* NSString+DKExtension.m in Sources */,
+				002617D2F3472307DEC0399A61FB5EBE /* NSURL+DKExtension.m in Sources */,
+				B359C1C1CAC8850F43FDC5AA36F2AC60 /* SDWebImageManager+MJ.m in Sources */,
+				BF96C80A654EACC9C655927611F14AA8 /* UIAlertController+DKExtension.m in Sources */,
+				A659FEF59735D95A3C08FDAD8C047CEE /* UIBarButtonItem+DKExtension.m in Sources */,
+				6A1B9353C19FBE3CB46480AA52C916E1 /* UIButton+DKExtension.m in Sources */,
+				B6006E8C7DBEF57D7199929CC8FF893B /* UIColor+DKExtension.m in Sources */,
+				6D0E15853EBB55653F54BB246CB8A9B7 /* UIImage+DKExtension.m in Sources */,
+				AAAF33D9653802265CDC22068F58ABF3 /* UINavigationController+DKExtension.m in Sources */,
+				86B99B611697A8FDE9F0A817891BEACC /* UITableView+DKExtension.m in Sources */,
+				6A656B76CADAAA71A3F4DA332A3839C4 /* UIView+DKExtension.m in Sources */,
+				AE5AF98AA4EA07C79B50F8C5D59F05F9 /* UIView+Frame.m in Sources */,
+				6F3E21C919E8494D47266D1C947C13D4 /* UIView+Frame.m in Sources */,
+				D44E2CDF89BD49608B31992A3227169A /* UIViewController+DKExtension.m in Sources */,
+				4B94707B6EFBF6EC22A8CFD786EC5F4C /* YZDisplayTitleLabel.m in Sources */,
+				1865B4C6952F22817629BC670815E9DE /* YZDisplayViewController.m in Sources */,
+				45EEAF752D407F20F0F7597B2296B515 /* YZFlowLayout.m in Sources */,
+				662CE9672C7F9CD40104A0F1A5579C31 /* amrFileCodec.mm in Sources */,
+				0018D9C71A722404CC6F00A48E979883 /* main.m in Sources */,
+				4E415FE37D2576401F0EE6FCD408CFD9 /* wav.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31616D8E39DE9F53AF32C59243EF34A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCA84D3D90DF2EAF5A0F661620C5EB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E14C5C318A00FE0B3305E438652ED96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44DB1985164622BB388EE2E9655715FB /* adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = adhoc;
+		};
+		4EB2B47B8141EF0F6A1294343389AA91 /* adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB2F989B0F75E1E692BEDEE17E86C8D1 /* Pods-ShengHai.adhoc.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShengHai/ShengHai.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = G8M2K7562P;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = ShengHai/Classes/Other/ShengHai.pch;
+				INFOPLIST_FILE = ShengHai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShengHai/Classes/Other/Lib/VoiceConvert/opencore-amrnb",
+					"$(PROJECT_DIR)/ShengHai/Classes/Other/Lib/VoiceConvert/opencore-amrwb",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.dankal.ShengHai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0a0d6718-7fe0-4c90-8467-b362f2b5867e";
+				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc cn.dankal.ShengHai";
+			};
+			name = adhoc;
+		};
+		985FF1DEBD10D44F00EA4C3BCF6B4A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1267084FEBD3201BBCE1485B46A0843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51F7461B3DE66AA6BD4CEEDD59819FC /* Pods-ShengHai.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShengHai/ShengHai.entitlements;
+				DEVELOPMENT_TEAM = G8M2K7562P;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = ShengHai/Classes/Other/ShengHai.pch;
+				INFOPLIST_FILE = ShengHai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShengHai/Classes/Other/Lib/VoiceConvert/opencore-amrnb",
+					"$(PROJECT_DIR)/ShengHai/Classes/Other/Lib/VoiceConvert/opencore-amrwb",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.dankal.ShengHai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f4174f8d-33bb-4751-b9d0-a0ccbbb7fe05";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development cn.dankal.ShengHai";
+			};
+			name = Debug;
+		};
+		C0E2A8C0A80A6FE657737DC3CC347E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA370D2E3EDC84E55F1C998C9379CED /* Pods-ShengHai.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShengHai/ShengHai.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = G8M2K7562P;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = ShengHai/Classes/Other/ShengHai.pch;
+				INFOPLIST_FILE = ShengHai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShengHai/Classes/Other/Lib/VoiceConvert/opencore-amrnb",
+					"$(PROJECT_DIR)/ShengHai/Classes/Other/Lib/VoiceConvert/opencore-amrwb",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.dankal.ShengHai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c478d746-a839-48c3-ac67-d904841102f0";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore cn.dankal.ShengHai";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7749AC2B6C5DC5C626F2F0144C2DC0B1 /* Build configuration list for PBXProject "ShengHai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E14C5C318A00FE0B3305E438652ED96 /* Debug */,
+				985FF1DEBD10D44F00EA4C3BCF6B4A65 /* Release */,
+				44DB1985164622BB388EE2E9655715FB /* adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98E5F25974314CCD565A6D62F9C50689 /* Build configuration list for PBXNativeTarget "ShengHai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1267084FEBD3201BBCE1485B46A0843 /* Debug */,
+				C0E2A8C0A80A6FE657737DC3CC347E6E /* Release */,
+				4EB2B47B8141EF0F6A1294343389AA91 /* adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89ECE679531E205A60FF1CC570B5B482 /* Project object */;
+}

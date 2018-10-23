@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DKProfileKnowledgeViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_lookfor_knowledge" translatesAutoresizingMaskIntoConstraints="NO" id="aSL-2i-DnU">
+                    <rect key="frame" x="0.0" y="120" width="225" height="90"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="aSL-2i-DnU" secondAttribute="height" multiplier="236:94" id="e9y-1t-yGf"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_share_knowledge" translatesAutoresizingMaskIntoConstraints="NO" id="hTl-XB-GwX">
+                    <rect key="frame" x="150" y="270" width="225" height="90"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="查看知识库" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2nh-UF-NCQ">
+                    <rect key="frame" x="143" y="225" width="72" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分享知识" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3w-Cc-7cs">
+                    <rect key="frame" x="160" y="375" width="58" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1yO-ft-m2g">
+                    <rect key="frame" x="0.0" y="120" width="225" height="122"/>
+                    <connections>
+                        <action selector="clickSeeKnowledgeButton:" destination="-1" eventType="touchUpInside" id="jRS-dt-t8C"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ab-53-hhh">
+                    <rect key="frame" x="150" y="270" width="225" height="122"/>
+                    <connections>
+                        <action selector="clickShareKnowledgeButton:" destination="-1" eventType="touchUpInside" id="D2j-wB-nbe"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="aSL-2i-DnU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5Rq-kz-RVy"/>
+                <constraint firstItem="4ab-53-hhh" firstAttribute="trailing" secondItem="hTl-XB-GwX" secondAttribute="trailing" id="6Gc-rf-6C3"/>
+                <constraint firstItem="1yO-ft-m2g" firstAttribute="trailing" secondItem="aSL-2i-DnU" secondAttribute="trailing" id="Bfq-Ml-OHa"/>
+                <constraint firstItem="hTl-XB-GwX" firstAttribute="top" secondItem="aSL-2i-DnU" secondAttribute="bottom" constant="60" id="Mt4-M5-vPS"/>
+                <constraint firstItem="1yO-ft-m2g" firstAttribute="top" secondItem="aSL-2i-DnU" secondAttribute="top" id="NT0-rj-GRT"/>
+                <constraint firstItem="4ab-53-hhh" firstAttribute="leading" secondItem="hTl-XB-GwX" secondAttribute="leading" id="TKK-2V-YB1"/>
+                <constraint firstItem="aSL-2i-DnU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="120" id="UB2-44-mMa"/>
+                <constraint firstItem="F3w-Cc-7cs" firstAttribute="leading" secondItem="hTl-XB-GwX" secondAttribute="leading" constant="10" id="VeU-Fu-ISd"/>
+                <constraint firstItem="1yO-ft-m2g" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="WW5-F4-4F8"/>
+                <constraint firstItem="1yO-ft-m2g" firstAttribute="bottom" secondItem="2nh-UF-NCQ" secondAttribute="bottom" id="XGr-LL-EdO"/>
+                <constraint firstItem="aSL-2i-DnU" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.6" id="Xlg-Jr-iVG"/>
+                <constraint firstItem="2nh-UF-NCQ" firstAttribute="trailing" secondItem="aSL-2i-DnU" secondAttribute="trailing" constant="-10" id="cVP-f8-eVC"/>
+                <constraint firstItem="4ab-53-hhh" firstAttribute="top" secondItem="hTl-XB-GwX" secondAttribute="top" id="d9t-sp-tgW"/>
+                <constraint firstAttribute="trailing" secondItem="hTl-XB-GwX" secondAttribute="trailing" id="dir-WF-1OM"/>
+                <constraint firstItem="4ab-53-hhh" firstAttribute="bottom" secondItem="F3w-Cc-7cs" secondAttribute="bottom" id="j1r-bd-uTP"/>
+                <constraint firstItem="hTl-XB-GwX" firstAttribute="width" secondItem="aSL-2i-DnU" secondAttribute="width" id="k11-PY-DLl"/>
+                <constraint firstItem="F3w-Cc-7cs" firstAttribute="top" secondItem="hTl-XB-GwX" secondAttribute="bottom" constant="15" id="qJh-eX-JEH"/>
+                <constraint firstItem="2nh-UF-NCQ" firstAttribute="top" secondItem="aSL-2i-DnU" secondAttribute="bottom" constant="15" id="xnz-nB-msz"/>
+                <constraint firstItem="hTl-XB-GwX" firstAttribute="height" secondItem="aSL-2i-DnU" secondAttribute="height" id="zsm-aD-HnN"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_lookfor_knowledge" width="236" height="94"/>
+        <image name="ic_share_knowledge" width="236" height="96"/>
+    </resources>
+</document>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DKMaintenanceRecordCell" rowHeight="161" id="KGk-i7-Jjw" customClass="DKMaintenanceRecordCell">
+            <rect key="frame" x="0.0" y="0.0" width="333" height="161"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="333" height="161"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rMa-1W-pNt">
+                        <rect key="frame" x="20" y="74.5" width="12" height="12"/>
+                        <color key="backgroundColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="12" id="Mi3-Pr-4tQ"/>
+                            <constraint firstAttribute="height" constant="12" id="VsP-9m-uaa"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e2z-t5-GzO">
+                        <rect key="frame" x="25.5" y="86.5" width="1" height="74"/>
+                        <color key="backgroundColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="UsT-QU-fY0"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v0w-Mg-w5x">
+                        <rect key="frame" x="25" y="0.0" width="1" height="74.5"/>
+                        <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="Y59-Sd-RuE"/>
+                        </constraints>
+                    </view>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_processon_round" translatesAutoresizingMaskIntoConstraints="NO" id="1rd-MN-fRc">
+                        <rect key="frame" x="16" y="71" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="6eP-mv-Udx"/>
+                            <constraint firstAttribute="height" constant="20" id="UI0-wV-7bh"/>
+                        </constraints>
+                    </imageView>
+                    <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3pa-TN-l56">
+                        <rect key="frame" x="47" y="10" width="271" height="140.5"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Label">
+                                <attributes>
+                                    <font key="NSFont" size="14" name="STHeiti"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="3pa-TN-l56" secondAttribute="bottom" constant="10" id="3gZ-xX-W0m"/>
+                    <constraint firstItem="rMa-1W-pNt" firstAttribute="top" secondItem="v0w-Mg-w5x" secondAttribute="bottom" id="43R-jQ-85E"/>
+                    <constraint firstItem="e2z-t5-GzO" firstAttribute="centerX" secondItem="rMa-1W-pNt" secondAttribute="centerX" id="8Rj-FQ-JPg"/>
+                    <constraint firstAttribute="trailing" secondItem="3pa-TN-l56" secondAttribute="trailing" constant="15" id="8Vp-ot-lTe"/>
+                    <constraint firstItem="1rd-MN-fRc" firstAttribute="centerY" secondItem="rMa-1W-pNt" secondAttribute="centerY" id="DbD-qz-9ye"/>
+                    <constraint firstItem="rMa-1W-pNt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="FnV-Xr-9yM"/>
+                    <constraint firstItem="1rd-MN-fRc" firstAttribute="centerX" secondItem="rMa-1W-pNt" secondAttribute="centerX" id="J1z-yu-YLS"/>
+                    <constraint firstItem="3pa-TN-l56" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Qe7-Nc-0XN"/>
+                    <constraint firstItem="v0w-Mg-w5x" firstAttribute="centerX" secondItem="rMa-1W-pNt" secondAttribute="centerX" id="TAp-1S-Nu2"/>
+                    <constraint firstItem="3pa-TN-l56" firstAttribute="leading" secondItem="rMa-1W-pNt" secondAttribute="trailing" constant="15" id="dUc-6F-yIM"/>
+                    <constraint firstAttribute="bottom" secondItem="e2z-t5-GzO" secondAttribute="bottom" id="dVI-Id-iqg"/>
+                    <constraint firstItem="v0w-Mg-w5x" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="i3Q-mf-M9b"/>
+                    <constraint firstItem="rMa-1W-pNt" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="tBd-7v-nju"/>
+                    <constraint firstItem="e2z-t5-GzO" firstAttribute="top" secondItem="rMa-1W-pNt" secondAttribute="bottom" id="yte-ZN-KFN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="attributeLabel" destination="3pa-TN-l56" id="k05-27-r8c"/>
+                <outlet property="middleCircleView" destination="rMa-1W-pNt" id="s17-A3-5PA"/>
+                <outlet property="topImageView" destination="1rd-MN-fRc" id="uYz-zN-t0b"/>
+                <outlet property="topLineView" destination="v0w-Mg-w5x" id="ec0-Iz-f8b"/>
+            </connections>
+            <point key="canvasLocation" x="-32.5" y="92.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_processon_round" width="34" height="34"/>
+    </resources>
+</document>

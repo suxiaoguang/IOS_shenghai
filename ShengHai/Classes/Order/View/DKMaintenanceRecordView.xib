@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DKMaintenanceRecordView">
+            <rect key="frame" x="0.0" y="0.0" width="405" height="201"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Akt-ra-dnz">
+                    <rect key="frame" x="0.0" y="0.0" width="405" height="45"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="485-tv-HCt">
+                            <rect key="frame" x="15" y="44" width="375" height="1"/>
+                            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="deviceRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="EHY-XW-UxI"/>
+                            </constraints>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_repair_record" translatesAutoresizingMaskIntoConstraints="NO" id="Hua-E8-RYq">
+                            <rect key="frame" x="15" y="12" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="20" id="L57-YN-nV9"/>
+                                <constraint firstAttribute="height" constant="20" id="nwI-ZF-NOJ"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="维修记录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVI-IZ-hUm">
+                            <rect key="frame" x="45" y="14" width="58" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="deviceRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="485-tv-HCt" secondAttribute="trailing" constant="15" id="71F-hN-B4j"/>
+                        <constraint firstItem="PVI-IZ-hUm" firstAttribute="leading" secondItem="Hua-E8-RYq" secondAttribute="trailing" constant="10" id="9eg-dc-vQu"/>
+                        <constraint firstItem="PVI-IZ-hUm" firstAttribute="centerY" secondItem="Hua-E8-RYq" secondAttribute="centerY" id="KG5-ya-CB9"/>
+                        <constraint firstItem="Hua-E8-RYq" firstAttribute="centerY" secondItem="Akt-ra-dnz" secondAttribute="centerY" id="P81-vZ-2z5"/>
+                        <constraint firstAttribute="height" constant="45" id="TVF-Hm-pNQ"/>
+                        <constraint firstItem="Hua-E8-RYq" firstAttribute="leading" secondItem="Akt-ra-dnz" secondAttribute="leading" constant="15" id="Vdr-NX-e2Z"/>
+                        <constraint firstAttribute="bottom" secondItem="485-tv-HCt" secondAttribute="bottom" id="W5L-nc-Fnh"/>
+                        <constraint firstItem="485-tv-HCt" firstAttribute="leading" secondItem="Akt-ra-dnz" secondAttribute="leading" constant="15" id="iyF-QT-IVL"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="k32-Dg-cKQ">
+                    <rect key="frame" x="0.0" y="45" width="405" height="156"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="k32-Dg-cKQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5Of-ZR-sf3"/>
+                <constraint firstItem="k32-Dg-cKQ" firstAttribute="top" secondItem="Akt-ra-dnz" secondAttribute="bottom" id="5rw-hK-9j3"/>
+                <constraint firstItem="Akt-ra-dnz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Bcy-oR-WF0"/>
+                <constraint firstAttribute="bottom" secondItem="k32-Dg-cKQ" secondAttribute="bottom" id="NYo-MD-n41"/>
+                <constraint firstAttribute="trailing" secondItem="k32-Dg-cKQ" secondAttribute="trailing" id="QPz-Nq-sWe"/>
+                <constraint firstAttribute="trailing" secondItem="Akt-ra-dnz" secondAttribute="trailing" id="WSF-Ih-H4W"/>
+                <constraint firstItem="Akt-ra-dnz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="kj0-FX-1Tq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="tableView" destination="k32-Dg-cKQ" id="Jhk-8K-p2h"/>
+            </connections>
+            <point key="canvasLocation" x="-8.5" y="24.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_repair_record" width="30" height="30"/>
+    </resources>
+</document>

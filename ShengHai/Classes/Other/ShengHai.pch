@@ -1,0 +1,86 @@
+//
+//  ShengHai.pch
+//  ShengHai
+//
+//  Created by nanzeng liu on 2017/6/16.
+//  Copyright © 2017年 cn.dankal. All rights reserved.
+//
+
+#ifndef ShengHai_pch
+#define ShengHai_pch
+
+/*** 框架 ***/
+#import <DKNetworking/DKNetworking.h>
+#import <MBProgressHUD+DK/DKProgressHUD.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <MJExtension/MJExtension.h>
+#import <YYImage/YYImage.h>
+#import <pop/POP.h>
+#import "DKExtension.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
+#import "UIImageView+WebCache.h"
+#import "Masonry.h"
+
+/*** Controller ***/
+#import "DKNavigationController.h"
+#import "DKTableViewController.h"
+#import "DKUserLoginViewController.h"
+#import "DKTabBarController.h"
+
+/*** Service ***/
+#import "DKHTTPTool.h"
+#import "DKCacheManager.h"
+#import "DKApplicationManager.h"
+#import "DKQiNiuManager.h"
+
+/*** Object ***/
+#import "DKViewModel.h"
+#import "DKHttpResponse.h"
+#import "DKUserInfo.h"
+#import "DKOrderWikiFirst.h"
+
+/*** View ***/
+#import "DKRefreshHeader.h"
+#import "DKRefreshFooter.h"
+
+/*** 常量 ***/
+#import "DKConst.h"
+
+/*** 颜色 ***/
+#define DKColorTintMain         DKHexColor(@"4A90E2")
+#define DKColorFontBlack        DKHexColor(@"333333")
+#define DKColorFontDarkGray     DKHexColor(@"666666")
+#define DKColorFontGray         DKHexColor(@"999999")
+#define DKColorLineGray         DKHexColor(@"e5e5e5")
+#define DKColorLineLightGray    DKHexColor(@"f5f5f5")
+
+/*** ObjCache ***/
+#define DKSetCache(key, value)                  [[DKCacheManager sharedInstance] setObject:(value) forKey:(key)]
+#define DKGetCache(key)                         [[DKCacheManager sharedInstance] objectForKey:(key)]
+
+#define DKUid DKGetUserDefault(@"uid")
+#define DKToken DKGetUserDefault(@"token")
+#define DKUserInfoCache ((DKUserInfo *)DKGetCache(@"userInfo"))
+#define DKGetOrderWikis ((NSMutableArray<DKOrderWikiFirst *> *)DKGetCache(DKUserInfoCache.staff_id))
+
+/*** Notification ***/
+#define DKSendNotification(name, obj, userInfo) [[NSNotificationCenter defaultCenter] postNotification:[NSNotification notificationWithName:name object:obj userInfo:userInfo]];
+
+/*** Error ***/
+#define DKERROR(Message) [NSError errorWithDomain:@"cn.dankal" code:0 userInfo:@{NSLocalizedDescriptionKey:Message}]
+
+/*** enum ***/
+typedef enum : NSInteger {
+    DKOrderTypeWait,        // 未接单
+    DKOrderTypeDeal,        // 处理中
+    DKOrderTypeHang,        // 已挂起
+    DKOrderTypeTurnSend,    // 已转派
+    DKOrderTypeComplete,    // 已完成
+} DKOrderType;
+
+/*** 当前导航控制器跳转 ***/
+#define NZPushViewController(vc) [(UINavigationController *)((UITabBarController *)[UIApplication sharedApplication].keyWindow.rootViewController).selectedViewController pushViewController:vc animated:YES];
+#define NZModalViewController(vc) [(UINavigationController *)((UITabBarController *)[UIApplication sharedApplication].keyWindow.rootViewController).selectedViewController presentViewController:vc animated:NO completion:nil];
+
+
+#endif /* ShengHai_pch */

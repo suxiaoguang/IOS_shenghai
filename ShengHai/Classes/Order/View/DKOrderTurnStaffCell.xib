@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DKProfileAddressBookDetailCell" rowHeight="70" id="9om-rG-eQF" customClass="DKOrderTurnStaffCell">
+            <rect key="frame" x="0.0" y="0.0" width="394" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9om-rG-eQF" id="Br5-lG-dzW">
+                <rect key="frame" x="0.0" y="0.0" width="394" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_user" translatesAutoresizingMaskIntoConstraints="NO" id="qY8-Bi-hQr">
+                        <rect key="frame" x="20" y="15" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="1rm-oL-C4y"/>
+                            <constraint firstAttribute="height" constant="40" id="sZY-As-lT3"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="刘刘刘" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWn-O5-rte">
+                        <rect key="frame" x="70" y="26.5" width="309" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="deviceRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qWn-O5-rte" firstAttribute="centerY" secondItem="qY8-Bi-hQr" secondAttribute="centerY" id="5mj-3y-hFv"/>
+                    <constraint firstItem="qY8-Bi-hQr" firstAttribute="centerY" secondItem="Br5-lG-dzW" secondAttribute="centerY" id="7NF-Fl-RhS"/>
+                    <constraint firstItem="qY8-Bi-hQr" firstAttribute="leading" secondItem="Br5-lG-dzW" secondAttribute="leading" constant="20" id="7a6-W7-sGL"/>
+                    <constraint firstAttribute="trailing" secondItem="qWn-O5-rte" secondAttribute="trailing" constant="15" id="YZP-u6-N4a"/>
+                    <constraint firstItem="qWn-O5-rte" firstAttribute="leading" secondItem="qY8-Bi-hQr" secondAttribute="trailing" constant="10" id="rQJ-lI-vhd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="headImageView" destination="qY8-Bi-hQr" id="Wro-JI-agG"/>
+                <outlet property="nameLabel" destination="qWn-O5-rte" id="JlQ-2e-7Te"/>
+            </connections>
+            <point key="canvasLocation" x="-12" y="69"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_user" width="30" height="30"/>
+    </resources>
+</document>
